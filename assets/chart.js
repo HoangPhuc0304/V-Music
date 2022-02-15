@@ -461,6 +461,15 @@ var listChart=[
         name: "Amee",
         audio: "./assets/audio/thaymoicogaiyeuanh.flac",    
         length: 215
+    },
+    {
+        link: "https://www.youtube.com/watch?v=rIXhXaQ8tiM",
+        img: "./assets/image/chart_ndt.jpg",
+        avata: "./assets/image/song_ndt.jpg",
+        song: "Ngày đầu tiên",
+        name: "Duc Phuc",
+        audio: "./assets/audio/ngaydautien.mp3",    
+        length: 208
     }
 
 ];
@@ -1016,6 +1025,51 @@ const cpopList=[
         audio: "./assets/audio/cpop/khongbang.mp3",    
         length: 180
     },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_actdrxedk.jpg",
+        avata: "./assets/image/cpop/avata_actdrxedk.jpg",
+        song: "Anh có thể đừng rời xa em được không",
+        name: "Mac Khieu Ty Ty",
+        audio: "./assets/audio/cpop/anhcothedungroixaemduockhong.mp3",    
+        length: 236
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_hnhv.jpg",
+        avata: "./assets/image/cpop/avata_hnhv.jpg",
+        song: "Hàng ngàn hàng vạn",
+        name: "Tham Hai Ngu Tu Tuong",
+        audio: "./assets/audio/cpop/hangnganhangvan.mp3",    
+        length: 246
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_mdsh.jpg",
+        avata: "./assets/image/cpop/avata_mdsh.jpg",
+        song: "Một đường sinh hoa",
+        name: "On Dich Tam",
+        audio: "./assets/audio/cpop/motduongsinhhoa.mp3",    
+        length: 256
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_tab.png",
+        avata: "./assets/image/cpop/avata_tab.png",
+        song: "Trường An biệt",
+        name: "Vuong Ngoc Manh",
+        audio: "./assets/audio/cpop/truonganbiet.mp3",    
+        length: 246
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_vg.jpg",
+        avata: "./assets/image/cpop/avata_vg.jpg",
+        song: "Vây giữ",
+        name: "Vuong Tinh Van Khong Map",
+        audio: "./assets/audio/cpop/vaygiu.mp3",    
+        length: 234
+    }
 ];
 
 // lunar new year song list

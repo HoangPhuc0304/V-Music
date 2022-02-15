@@ -178,8 +178,29 @@ const YourLibrary = {
                                 <div class="song-songs-share">
                                     <i class="bi bi-share-fill song-songs-share-icon"></i>
                                     Share
+                                    <div class="song-songs-clipboard">
+                                        <div class="song-clipboard-header">
+                                            <i class="bi bi-send-fill song-clipboard-icon"></i>
+                                            <span class="song-clipboard-heading">Share to your platforms</span>
+                                        </div>
+                                        <div class="song-clipboard-body">
+                                            <input type="text" value="${this.songs[this.currentPage][i].link}" id="linkVideo" class="song-clipboard-link">
+                                            <button class="bi bi-files song-clipboard-copy active"></button>
+                                            <button class="bi bi-check-lg song-clipboard-copy-active"></button>
+                                        </div>
+                                        <div class="song-clipboard-tail">
+                                            <a href="" class="social-size social-fb social-background" target="_blank"></a>
+                                            <a href="" class="social-size social-google social-background" target="_blank"></a>
+                                            <a href="" class="social-size social-apple social-background" target="_blank"></a>
+                                        </div>
+                                    </div>
                                 </div>
+                                <a href="${this.songs[this.currentPage][i].audio}" download class="song-songs-download">
+                                    <i class="bi bi-download song-songs-download-icon"></i>
+                                    Download
+                                </a>
                             </div>
+                            
                         </span>
                     </div>
                 </div>
@@ -223,7 +244,27 @@ const YourLibrary = {
                                 <div class="song-top-share">
                                     <i class="bi bi-share-fill song-top-share-icon"></i>
                                     Share
+                                    <div class="song-top-clipboard">
+                                        <div class="song-clipboard-header">
+                                            <i class="bi bi-send-fill song-clipboard-icon"></i>
+                                            <span class="song-clipboard-heading">Share to your platforms</span>
+                                        </div>
+                                        <div class="song-clipboard-body">
+                                            <input type="text" value="${this.songs[this.currentPage][i].link}" id="linkTop" class="song-clipboard-link">
+                                            <button class="bi bi-files song-top-clipboard-copy active"></button>
+                                            <button class="bi bi-check-lg song-top-clipboard-copy-active"></button>
+                                        </div>
+                                        <div class="song-clipboard-tail">
+                                            <a href="" class="social-size social-fb social-background" target="_blank"></a>
+                                            <a href="" class="social-size social-google social-background" target="_blank"></a>
+                                            <a href="" class="social-size social-apple social-background" target="_blank"></a>
+                                        </div>
+                                    </div>
                                 </div>
+                                <a href="${this.songs[this.currentPage][i].audio}" download class="song-top-download">
+                                    <i class="bi bi-download song-top-download-icon"></i>
+                                    Download
+                                </a>
                             </div>
                         </span>
                     </div>
@@ -656,6 +697,91 @@ const YourLibrary = {
                 setTimeout(function(){addSuccess[i].classList.remove('active')},3000);
             }
         }
+
+        // Next Broadcast
+        const topBroadcast = $$('.song-top-broadcast');
+        for(let i = 0;i<topBroadcast.length;i++){
+            topBroadcast[i].onclick=function(){
+                this.parentNode.classList.remove('active');
+                for(var j = 0;j<_this.songs[_this.currentPage].length;j++){
+                    if($$('.song-top-item')[j].contains(this)){
+                        var tempNext = $$('.song-top-item')[j].getAttribute("data-index");
+                        _this.songs[_this.currentPage].splice(_this.currentIndex+1,0,_this.songs[indexCurrent][tempNext]);
+                    }
+                }
+            }
+        }
+
+        const songBroadcast = $$('.song-songs-broadcast');
+        for(let i = 0;i<songBroadcast.length;i++){
+            songBroadcast[i].onclick=function(){
+                this.parentNode.classList.remove('active');
+                for(var j = 0;j<_this.songs[_this.currentPage].length;j++){
+                    if($$('.song-songs-item')[j].contains(this)){
+                        var tempNext = $$('.song-songs-item')[j].getAttribute("data-index");
+                        _this.songs[_this.currentPage].splice(_this.currentIndex+1,0,_this.songs[indexCurrent][tempNext]);
+                    }
+                }
+            }
+        }
+
+        // When copy link
+        const copyClipboard= $$('.song-clipboard-copy.active');
+        const copyText = $$('#linkVideo');
+        const topClipboard=$$('.song-top-clipboard-copy.active');
+        const topCopy = $$('#linkTop');
+        for (let i=0;i<copyClipboard.length;i++) {
+            copyClipboard[i].onclick= function() {
+                copyText[i].select();
+                copyText[i].setSelectionRange(0, 99999); 
+                navigator.clipboard.writeText(copyText[i].value);
+                this.classList.remove('active');
+                this.parentNode.querySelector('.song-clipboard-copy-active').classList.add('active');
+                setTimeout(function(){
+                    for(var j = 0;j<$$('.song-clipboard-copy-active').length;j++){
+                        $$('.song-clipboard-copy-active')[j].classList.remove('active');
+                    }
+                    $$('.song-clipboard-copy')[i].classList.add('active');
+                },3000)
+            }
+        }
+        for (let i=0;i<topClipboard.length;i++) {
+            topClipboard[i].onclick= function() {
+                topCopy[i].select();
+                topCopy[i].setSelectionRange(0, 99999); 
+                navigator.clipboard.writeText(topCopy[i].value);
+                this.classList.remove('active');
+                this.parentNode.querySelector('.song-top-clipboard-copy-active').classList.add('active');
+                setTimeout(function(){
+                    for(var j = 0;j<$$('.song-top-clipboard-copy-active').length;j++){
+                        $$('.song-top-clipboard-copy-active')[j].classList.remove('active');
+                    }
+                    $$('.song-top-clipboard-copy')[i].classList.add('active');
+                },3000)
+            }
+        }
+
+        const shareBtns = $$('.song-songs-share');
+        const clipboardTables = $$('.song-songs-clipboard');
+        const shareTops = $$('.song-top-share');
+        const topTables = $$('.song-top-clipboard');
+        // When hover share
+        for (let i=0;i<shareBtns.length;i++) {
+            shareBtns[i].onmouseover=function() {
+                clipboardTables[i].classList.add('active');
+            }
+            shareBtns[i].onmouseout=function() {
+                clipboardTables[i].classList.remove('active');
+            }
+        }
+        for (let i=0;i<shareTops.length;i++) {
+            shareTops[i].onmouseover=function() {
+                topTables[i].classList.add('active');
+            }
+            shareTops[i].onmouseout=function() {
+                topTables[i].classList.remove('active');
+            }
+        }
     },
     heartControl: function() {
         const _this = this;
@@ -736,7 +862,27 @@ const KindListen = {
                             <div class="song-top-share">
                                 <i class="bi bi-share-fill song-top-share-icon"></i>
                                 Share
+                                <div class="song-top-clipboard">
+                                    <div class="song-clipboard-header">
+                                        <i class="bi bi-send-fill song-clipboard-icon"></i>
+                                        <span class="song-clipboard-heading">Share to your platforms</span>
+                                    </div>
+                                    <div class="song-clipboard-body">
+                                        <input type="text" value="${this.songs[index][i].link}" id="linkTop" class="song-clipboard-link">
+                                        <button class="bi bi-files song-top-clipboard-copy active"></button>
+                                        <button class="bi bi-check-lg song-top-clipboard-copy-active"></button>
+                                    </div>
+                                    <div class="song-clipboard-tail">
+                                        <a href="" class="social-size social-fb social-background" target="_blank"></a>
+                                        <a href="" class="social-size social-google social-background" target="_blank"></a>
+                                        <a href="" class="social-size social-apple social-background" target="_blank"></a>
+                                    </div>
+                                </div>
                             </div>
+                            <a href="${this.songs[index][i].audio}" download class="song-top-download">
+                                <i class="bi bi-download song-top-download-icon"></i>
+                                Download
+                            </a>
                         </div>
                     </span>
                 </div>
@@ -814,6 +960,7 @@ const Search={
         this.handleEvent();
     }
 }
+
 
 nav.start();
 YourLibrary.start();

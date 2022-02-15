@@ -1,16 +1,19 @@
 // Modal (SignIn+SignUp)
 const signBtn_In = document.querySelector('.js-sign-in');
 const modal_In = document.querySelector('.js-modal-in');
-const modalContainer_In = document.querySelector('.js-modal-container-in');
-const modalClose_In = document.querySelector('.js-modal-close-in');
-
+const modalContainer_In = document.querySelector('#form-signIn');
+const modalClose_In = document.querySelector('#form-signIn .form-close');
+const modalChange_In = document.querySelector('#form-signIn .change-signIn');
 function ShowModalIn() {
     modal_In.classList.add('open');
 }
 function HideModalIn() {
     modal_In.classList.remove('open');
 }
-
+modalChange_In.onclick = function() {
+    HideModalIn();
+    ShowModalUp();
+}
 signBtn_In.addEventListener('click',ShowModalIn);
 modalClose_In.addEventListener('click',HideModalIn);
 modal_In.addEventListener('click',HideModalIn);
@@ -20,8 +23,10 @@ modalContainer_In.addEventListener('click',function(event){
 //---------------------------------------------------------------
 const signBtn_Up = document.querySelector('.js-sign-up');
 const modal_Up = document.querySelector('.js-modal-up');
-const modalContainer_Up = document.querySelector('.js-modal-container-up');
-const modalClose_Up = document.querySelector('.js-modal-close-up');
+const modalContainer_Up = document.querySelector('#form-signUp');
+const modalClose_Up = document.querySelector('#form-signUp .form-close');
+const modalChange_Up = document.querySelector('#form-signUp .change-signUp');
+
 
 function ShowModalUp() {
     modal_Up.classList.add('open');
@@ -29,7 +34,10 @@ function ShowModalUp() {
 function HideModalUp() {
     modal_Up.classList.remove('open');
 }
-
+modalChange_Up.onclick = function() {
+    HideModalUp();
+    ShowModalIn();
+}
 signBtn_Up.addEventListener('click',ShowModalUp);
 modalClose_Up.addEventListener('click',HideModalUp);
 modal_Up.addEventListener('click',HideModalUp);
@@ -190,22 +198,3 @@ function SlideEvent (ms){
         setTimeout(resolve,ms);
     });
 }
-
-// Contact 
-const btnContact=document.querySelector('.js-contact-btn');
-const notice = document.querySelector('.js-notice');
-const noticeContainer=document.querySelector('.js-notice-container');
-const noticeClose=document.querySelector('.js-notice-close');
-
-function ShowNoticeThanks() {
-    notice.classList.add('open')
-}
-function HideNoticeThanks() {
-    notice.classList.remove('open')
-}
-btnContact.addEventListener('click',ShowNoticeThanks);
-noticeClose.addEventListener('click',HideNoticeThanks);
-notice.addEventListener('click',HideNoticeThanks);
-noticeContainer.addEventListener('click',function(event){
-    event.stopPropagation();
-})

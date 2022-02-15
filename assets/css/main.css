@@ -65,6 +65,46 @@ html {
 .column-full {
     width: 100%;
 }
+.song-box.background-1 {
+    width: 100%;
+    height: auto;
+    background-image: url(../image/background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.song-box.background-2 {
+    width: 100%;
+    height: auto;
+    background-image: url(../image/background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.song-box.background-3 {
+    width: 100%;
+    height: auto;
+    background-image: url(../image/background-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.song-box.background-4 {
+    width: 100%;
+    height: auto;
+    background-image: url(../image/background-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.song-box.background-5 {
+    width: 100%;
+    height: auto;
+    background-image: url(../image/background-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /* ############################################ */
 /* Header */
 #header {
@@ -127,6 +167,7 @@ html {
 /*Header (Effect)*/
 .modal {
     display: none;
+    /* display: flex; */
     position: fixed;
     top: 0;
     bottom: 0;
@@ -140,15 +181,18 @@ html {
 .modal.open {
     display: flex;
 }
-.modal-container {
+/* .modal-container  */
+#form-signIn,
+#form-signUp {
     position: relative;
     background-color: #fff;
     width: 400px;
     max-width: calc(100%-32px);
     border-radius: 4px;
     animation: FadeIn ease-in 0.5s;
+    align-self: center;
 }
-.modal-header {
+.form-header {
     position: relative;
     height: 96px;
     background-color: #260031;
@@ -157,19 +201,19 @@ html {
     justify-content: center;
     border-radius: 2px 2px 0 0;
 }
-.modal-close {
+.form-close {
     position: absolute;
     top: 0;
     right: 0;
     padding: 8px 12px;
     color: #fff;
 }
-.modal-close:hover {
+.form-close:hover {
     color: #260031;
     background-color: var(--fade-color);
     cursor: pointer;
 }
-.modal-heading {
+.form-heading {
     color:#fff;
     font-size: 28px;
 }
@@ -204,61 +248,77 @@ html {
 .social-background {
     background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7b95007f3377150730bbb5d1ddb477d6.png);
 }
-.modal-body {
+.form-body {
     width: 100%;
     padding: 8px 16px;
 }
-.modal-box {
-    display: block;
-    margin-top: 20px;
+.form-group {
+    width: 100%;
+    padding: 4px 0;
 }
-.modal-account {
-    margin-bottom: 16px;
+.form-group.invalid .form-control-input {
+    border-color: #f33a58;;
 }
-.modal-label {
+.form-group.invalid .form-message {
+    color: #f33a58;;
+}
+.form-user-icon {
+    font-size: 20px;
+}
+.form-label {
     font-size: 14px;
-    font-weight: 500;
 }
-.modal-input {
+.form-control-input {
     display: block;
     width: 100%;
-    height: 32px;
-    margin-top: 8px;
+    padding: 8px 8px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #b3b3b3;
+}
+.form-control-input:hover {
+    border-color: var(--main-color);
+  }
+.form-message {
+    padding: 4px 2px;
     font-size: 12px;
-    padding: 0 8px;
+    width: 100%;
+    height: 20px;
 }
 
+.forget-password-box {
+    width: 100%;
+    text-align: right;
+}
 .forget-password {
-    float: right;
     font-size: 14px;
     color: var(--main-color);
     text-decoration: none;
 }
-.modal-select {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 48px;
+.form-footer {
+    margin: 4px 0;
 }
-.modal-btn {
+.form-submit {
     width: 50%;
     height: 36px;
+    margin: 4px 25%;
     background-color: #260031;
     color: #fff;
     cursor: pointer;
     border-radius: 80px;
     border: none;
 }
-.modal-social {
+.form-social {
     padding: 18px 0 4px 0;
 }
-.modal-suggest {
+.form-suggest {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 14px;
 }
-.modal-social-icon {
+.form-social-icon {
     margin-top: 6px;
     display: flex;
     justify-content: center;
@@ -271,9 +331,11 @@ html {
     margin-top: 24px;
     font-size: 14px;
 }
-.change-signup {
+.change-signIn,
+.change-signUp {
     margin: 0 4px;
     color: var(--main-color);
+    cursor: pointer;
 }
 
 /* ############################################ */
@@ -337,7 +399,7 @@ html {
     background-color: #fff;
     border-radius: 50%;
     margin: 0 8px;
-    border: 1px solid var(--main-color);
+    border: 1px solid #000;
 }
 .slider-btn:hover {
     background-color: var(--main-color);
@@ -402,9 +464,10 @@ html {
 #singer {
     margin: 0 auto;
     width: 100%;
-    padding: 64px 0 112px;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-top: 64px;
+    padding-bottom: 112px;
+    padding-left: 8%;
+    padding-right: 8%;
     background-color: var(--main-color);
     display: block;
 }
@@ -540,8 +603,8 @@ html {
     margin: 0 auto;
     width: 100%;
     padding: 64px 0 112px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .chart-heading {
     text-align: center;
@@ -554,21 +617,22 @@ html {
 .chart-container {
     display: flex;
     width: 100%;
-    height: calc(100vh - 64px);
+    height: 600px;
     z-index: 2;
+    align-items: center;
+    justify-content: center;
 }
 .chart-background {
     position: relative;
-    width: 45%;
-    height: 100%;
+    height: 92%;
     background-size: cover;
     background-position: center;
     border-radius: 3px;
-
+    margin: 0 2%;
 }
 .chart-top {
-    width: 100%;
-    height: 64%;
+    height: 70%;
+    width: auto;
     border-radius: 3px;
 }
 .chart-page {
@@ -614,9 +678,13 @@ html {
     border-radius: 3px 0 0 3px;
     cursor: pointer;
 }
-.chart-top-thumnail {
-    width: 100%;
-    height: 27%;
+.chart-top-thumbnail {
+    /* width: 100%; */
+    position: absolute;
+    height: 29%;
+    top: 71%;
+    left: 0;
+    right: 0;
     overflow: auto;
     overflow-y: hidden;
     white-space: nowrap;
@@ -646,13 +714,13 @@ html {
 }
 
 .chart-song {
-    width: 55%;
     height: 92%;
     border-radius: 4px;
     background-color: #fff;
     border-color: rgba(0,0,0,0.1);
     border-style: solid;
     border-width: 1px;
+    margin: 0 2%;
 }
 .chart-title {
     width: 100%;
@@ -758,6 +826,7 @@ html {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
+    color: var(--main-color);
     overflow: hidden;
     font-weight: 600;
     text-shadow: 0 0 1px #fff;
@@ -860,11 +929,11 @@ html {
 .book-container {
     position: relative;
     width: 100%;
-    height: 900px;
+    height: 100%;
     background-color: var(--main-color);
     padding: 64px 0 112px;
-    padding-left: 192px;
-    padding-right: 192px;
+    padding-left: 16%;
+    padding-right: 16%;
 }
 .book-heading {
     text-align: center;
@@ -888,7 +957,8 @@ html {
 }
 .book-frame-photo {
     width: 100%;
-    height: 240px;
+    height: auto;
+    max-height: 320px;
     padding: 0 8px;
     background-position: center;
     background-repeat:no-repeat;
@@ -997,13 +1067,13 @@ html {
     background: linear-gradient(#2b1055,#7597de);
     display: none;
 }
-.background-1 {
+.background-book-1 {
     background: linear-gradient(#2b1055,#7597de);
 }
-.background-2 {
+.background-book-2 {
     background: linear-gradient(#ec4c23,#c0395a);
 }
-.background-3 {
+.background-book-3 {
     background: linear-gradient(#e4b20d,#7597de);
 }
 .book-background-box.active {
@@ -1058,12 +1128,12 @@ html {
 .book-singer-hn {
     position: absolute;
     /* top: -150%; */
-    top: 220px;
+    top: 36%;
     left: 45.5%;
     transform-style: preserve-3d;
     transform: perspective(1000px);
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    height: auto;
     border-radius: 10px;
     animation: fadeDown ease 1s;
     display: none;
@@ -1091,7 +1161,7 @@ html {
 }
 .book-click {
     position: absolute;
-    left: 45%;
+    left: calc(50% - 60px);
     top: 200px;
     padding: 8px 32px;
     width: 120px;
@@ -1251,26 +1321,71 @@ html {
     font-size: 14px;
     font-weight: 500;
 }
-.contact-client {
-    width: 100%;
+#form-contact {
+    width: 50%;
 }
-.contact-input-list {
+.form-contact-list {
     display: flex;
-}
-.contact-input-list:first-child {
-    content: "";
-    margin-bottom: 12px;
+    margin-bottom: 24px;
 }
 
-.contact-input {
+.form-contact-item {
     width: 100%;
-    padding: 8px;   
+    position: relative;
 }
-.input-message {
-    height: 80px;
+.form-contact-icon {
+    font-size: 20px;
+    width: 20px;
+    margin-right: 8px;
+    color: var(--main-color);
+}
+.contact-title, 
+.contact-title-message {
+    position: absolute;
+    left: 36px;
+    padding: 4px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--main-color);
+    pointer-events: none;
+    z-index: 1;
+    transition: 0.3s;
+    width: 80%;
+    background-color: #fff;
+}
+.contact-input {
+    width: 80%;
+    padding: 8px;   
+    border-radius: 3px;
+    color: #333;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #777;
+    font-size: 14px;
+}
+.contact-input:focus ~ .contact-title,
+.contact-input-message:focus ~ .contact-title-message {
+    transform: translateY(-20px);
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-input:invalid ~ .contact-title,
+.contact-input-message:invalid ~ .contact-title-message {
+    transform: translateY(-20px);
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-input-message {
+    width: 90%;
+    padding: 8px;   
+    border-radius: 3px;
+    color: #333;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #777;
 }
 .contact-btn {
-    float: right;
+    margin-left: 76%;
     margin-top: 8px;
     padding: 8px 24px;
     border-radius: 3px;
@@ -1279,7 +1394,15 @@ html {
     color: #fff;
     cursor: pointer;
 }
-
+.form-contact-item.invalid .contact-input {
+    border-color: #f33a58;;
+}
+.form-contact-item.invalid .form-message {
+    color: #f33a58;;
+}
+.form-contact-item .form-message {
+    margin-left: 36px;
+}
 .notice {
     display: none;
     position: fixed;
