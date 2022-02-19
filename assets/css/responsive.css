@@ -382,8 +382,9 @@
         display: inline-block;
     }
     .logo-frame {
-        width: 50%;
         display: flex;
+        justify-content: center;
+        align-items: center;
         height: 46px;
     }
     .logo-page {
@@ -442,6 +443,7 @@
         margin-right: 16px;
     }
     .nav-item {
+        padding: 0;
         padding-right: 80%;
         margin: 0 4px;
         list-style-type: none;
@@ -460,7 +462,7 @@
         position: fixed;
         width: 80%;
         left: 20%;
-        top: 600px;
+        bottom: 150px;
         justify-content: center;
         align-items: center;
         background-color: var(--main-color);
@@ -978,6 +980,11 @@
         left: 8px;
         font-size: 24px;
     }
+    .song-top-nav-left:hover {
+        border-radius: 50%;
+        background-color: rgba(0,0,0,0.3);
+        cursor: pointer;
+    }
     .song-top-title {
         font-size: 24px;
         padding: 0 24px;
@@ -1111,7 +1118,7 @@
         margin: auto 0;
     }
     .control-frame {
-        height: 10%;
+        height: 15%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1139,7 +1146,7 @@
         align-items: center;
     }
     .control-heart {
-        padding: 12px 12px;
+        padding: 2px;
         font-size: 20px;
         
     }
@@ -1156,19 +1163,21 @@
         align-items: center;
         padding: 0 12%;
     }
-    
+    .control-random {
+        font-size: 22px;
+    }
     .control-pre,
     .control-next {
-        font-size: 28px;
+        font-size: 32px;
         padding: 4px;
         cursor: pointer;
     }
     .icon-play,
     .icon-pause {
-        font-size: 42px;
+        font-size: 46px;
     }
     .control-repeat {
-        font-size: 22px;
+        font-size: 24px;
     }
     .control-start {
         padding: 0 16px;
@@ -1341,8 +1350,9 @@
     #footer {
         position: relative;
         width: 100%;
-        height: calc(100vh - 46px);
+        height: 800px;
         background-color: #000;
+        margin: 0;
     }
     .footer-head {
         flex-direction: column;
@@ -1375,7 +1385,11 @@
         position: absolute;
         top: 100%;;
         right: 0px;
-        width: 100%;
+        width: 90%;
+    }
+    .footer-menu {
+        padding: 4px 12px;
+        float: bottom;
     }
     .footer-menu-item {
         text-decoration: none;
@@ -1385,7 +1399,7 @@
     }
     .footer-copyright {
         width: 40%;
-        padding: 0 12px;
+        padding: 0;
         font-size: 12px;
     }
     .footer-copyright-item {
