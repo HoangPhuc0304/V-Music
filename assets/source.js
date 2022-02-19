@@ -198,3 +198,61 @@ function SlideEvent (ms){
         setTimeout(resolve,ms);
     });
 }
+
+/* Mobile */
+const navOpen = document.querySelector('.nav-open-icon');
+const navClose = document.querySelector('.nav-close-icon');
+const control = document.querySelector('#control');
+const controlNav = document.querySelector('.control-nav');
+const closeBtn=document.querySelector('.control-finish');
+
+navOpen.onclick = function() {
+    document.querySelector('#nav').classList.add('open')
+    document.querySelector('#user').classList.add('open')
+    document.querySelector('.nav-close-icon').classList.add('open')
+    document.querySelector('.nav-follow').classList.add('open')
+    document.querySelector('.nav-copyright').classList.add('open')
+    document.querySelector('.lock-screen').classList.add('active')
+    document.querySelector('#control').classList.add('remove')
+}
+navClose.onclick = function() {
+    document.querySelector('#nav').classList.add('hiding')
+    document.querySelector('#user').classList.add('hiding')
+    document.querySelector('.nav-close-icon').classList.add('hiding')
+    document.querySelector('.nav-follow').classList.add('hiding')
+    document.querySelector('.nav-copyright').classList.add('hiding')
+    setTimeout(function(){
+        document.querySelector('#nav').classList.remove('hiding')
+        document.querySelector('#user').classList.remove('hiding')
+        document.querySelector('.nav-close-icon').classList.remove('hiding')
+        document.querySelector('.nav-follow').classList.remove('hiding')
+        document.querySelector('.nav-copyright').classList.remove('hiding')
+        setTimeout(function() {
+            document.querySelector('#nav').classList.remove('open')
+            document.querySelector('#user').classList.remove('open')
+            document.querySelector('.nav-close-icon').classList.remove('open')
+            document.querySelector('.nav-follow').classList.remove('open')
+            document.querySelector('.nav-copyright').classList.remove('open')
+            document.querySelector('.lock-screen').classList.remove('active')
+            document.querySelector('#control').classList.remove('remove')
+        },10)
+    },300);
+}
+
+controlNav.ontouchmove=function(e) {
+    this.classList.remove('initialize')
+    var touchLocation = e.touches['0']
+    this.style.left = touchLocation.clientX + 'px'
+    this.style.top = touchLocation.clientY + 'px'
+}
+controlNav.ontouchend=function(e) {
+    var x = parseInt(this.style.left)
+    var y = parseInt(this.style.top)
+}
+// When close Control
+closeBtn.onclick=function() {
+    control.style.display="none";
+}
+controlNav.onclick=function() {
+    control.style.display="flex";
+}

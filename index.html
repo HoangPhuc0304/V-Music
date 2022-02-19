@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>V-Music</title>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="icon" href="./assets/image/header_icon.png" type="image/x-icon" />
@@ -19,14 +19,53 @@
 <body>
     <div id="main">
         <div id="header">
+            <div class="logo-frame">
+                <img src="./assets/image/header_icon.png" alt="" class="logo-page">
+                <h1 class="logo-name">V-Music</h1>
+            </div>
             <ul id="nav">
-                <li><a href="#" class="nav-item">Home</a></li>
-                <li><a href="#singer" class="nav-item">Singer</a></li>
-                <li><a href="#chart" class="nav-item">Chart</a></li>
-                <li><a href="#songs" class="nav-item">Songs</a></li>
-                <li><a href="#book" class="nav-item">Book</a></li>
-                <li><a href="#photo" class="nav-item">Photo</a></li>
-                <li><a href="#contact" class="nav-item">Contact</a></li>
+                <li>
+                    <a href="#" class="nav-item">
+                        <i class="bi bi-house-door-fill nav-icon"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#singer" class="nav-item">
+                        <i class="bi bi-people-fill nav-icon"></i>
+                        Singer
+                    </a>
+                </li>
+                <li>
+                    <a href="#chart" class="nav-item">
+                        <i class="bi bi-graph-up-arrow nav-icon"></i>
+                        Chart
+                    </a>
+                </li>
+                <li>
+                    <a href="#songs" class="nav-item">
+                        <i class="bi bi-music-note nav-icon"></i>
+                        Songs
+                    </a>
+                </li>
+                <li>
+                    <a href="#book" class="nav-item">
+                        <i class="bi bi-calendar-day-fill nav-icon"></i>
+                        Book
+                    </a>
+                </li>
+                <li>
+                    <a href="#photo" class="nav-item">
+                        <i class="bi bi-image nav-icon"></i>
+                        Photo
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-item">
+                        <i class="bi bi-chat-right-quote-fill nav-icon"></i>
+                        Contact
+                    </a>
+                </li>
             </ul>
 
             <ul id="user">
@@ -34,9 +73,18 @@
                 <p class="user-divide">|</p>
                 <li><button class="user-item js-sign-up">Sign up</button></li>
             </ul>
-            <div id="search">
-
+            <i class="bi bi-x-lg nav-close-icon"></i>
+            <i class="bi bi-list nav-open-icon"></i>
+            <div class="nav-follow">
+                <h3 class="nav-follow-heading">Follow us</h3> 
+                <div class="nav-follow-list">
+                    <a href="https://www.facebook.com/" class="nav-follow-item ti-facebook" target="_blank"></a>
+                    <a href="https://www.instagram.com/" class="nav-follow-item ti-instagram" target="_blank"></a>
+                    <a href="https://www.apple.com/" class="nav-follow-item ti-apple" target="_blank"></a>
+                    <a href="https://twitter.com/" class="nav-follow-item ti-twitter-alt" target="_blank"></a>
+                </div>
             </div>
+            <span class="nav-copyright">© 2022 HPS Inc.</span>
         </div>
         <div id="body">
             <div id="slider">
@@ -81,7 +129,7 @@
                 <p class="slider-page">14 / 15</p>
                 <p class="slider-page">15 / 15</p>
                 <div class="slider-container">
-                    <img src="./assets/image/slide_sontungmtp.jpg" alt="" class="slider-photo">
+                    <img src="./assets/image/slide_sontungmtp1.jpg" alt="" class="slider-photo">
                 </div>
                 <div class="slider-container">
                     <img src="./assets/image/slide_jack.jpg" alt="" class="slider-photo">
@@ -90,7 +138,7 @@
                     <img src="./assets/image/slide_mytam1.jpg" alt="" class="slider-photo">
                 </div>
                 <div class="slider-container">
-                    <img src="./assets/image/slide_den1.png" alt="" class="slider-photo">
+                    <img src="./assets/image/slide_den3.jpg" alt="" class="slider-photo">
                 </div>
                 <div class="slider-container">
                     <img src="./assets/image/slide_bichphuong.jpeg" alt="" class="slider-photo">
@@ -105,13 +153,13 @@
                     <img src="./assets/image/slide_mytam2.jpg" alt="" class="slider-photo">
                 </div>
                 <div class="slider-container">
-                    <img src="./assets/image/slide_den3.jpg" alt="" class="slider-photo">
+                    <img src="./assets/image/slide_den2.jpg" alt="" class="slider-photo">
                 </div>
                 <div class="slider-container">
                     <img src="./assets/image/slide_bichphuong2.jpeg" alt="" class="slider-photo">
                 </div>
                 <div class="slider-container">
-                    <img src="./assets/image/slide_sontungmtp4.jpg" alt="" class="slider-photo">
+                    <img src="./assets/image/slide_sontungmtp6.jpg" alt="" class="slider-photo">
                 </div>
                 <div class="slider-container">
                     <img src="./assets/image/slide_jack2.jpg" alt="" class="slider-photo">
@@ -123,7 +171,7 @@
                     <img src="./assets/image/slide_den4.jpg" alt="" class="slider-photo">
                 </div>
                 <div class="slider-container">
-                    <img src="./assets/image/slide_bichphuong3.jpg" alt="" class="slider-photo">
+                    <img src="./assets/image/slide_bichphuong.jpeg" alt="" class="slider-photo">
                 </div>
             </div>
             <div id="content">
@@ -149,7 +197,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_den.jpeg" alt="" class="singer-photo origin-left">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Den Vau</h3>
                                         <span class="singer-sub">4.33M subscribers</span>
                                         <div class="singer-social">
@@ -164,7 +212,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_jack.jpg" alt="" class="singer-photo">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Jack - J97</h3>
                                         <span class="singer-sub">5.67M subscribers</span>
                                         <div class="singer-social">
@@ -179,7 +227,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_mytam.jpg" alt="" class="singer-photo">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">My Tam</h3>
                                         <span class="singer-sub">3.21M subscribers</span>
                                         <div class="singer-social">
@@ -196,7 +244,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_bichphuong.jpg" alt="" class="singer-photo origin-left">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Bich Phuong</h3>
                                         <span class="singer-sub">2.18M subscribers</span>
                                         <div class="singer-social">
@@ -211,7 +259,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_soobin.jpg" alt="" class="singer-photo origin-left">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Soobin</h3>
                                         <span class="singer-sub">1.34M subscribers</span>
                                         <div class="singer-social">
@@ -226,7 +274,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_min.jpg" alt="" class="singer-photo">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Min</h3>
                                         <span class="singer-sub">1.95M subscribers</span>
                                         <div class="singer-social">
@@ -241,7 +289,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_binz.jpg" alt="" class="singer-photo">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Binz</h3>
                                         <span class="singer-sub">1.75M subscribers</span>
                                         <div class="singer-social">
@@ -258,7 +306,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_amee.jpg" alt="" class="singer-photo origin-left">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Amee</h3>
                                         <span class="singer-sub">140N subscribers</span>
                                         <div class="singer-social">
@@ -273,7 +321,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_hoangthuylinh.jpg" alt="" class="singer-photo origin-left">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Hoang Thuy Linh</h3>
                                         <span class="singer-sub">1.13M subscribers</span>
                                         <div class="singer-social">
@@ -288,7 +336,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_haanhtuan.jpg" alt="" class="singer-photo">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Ha Anh Tuan</h3>
                                         <span class="singer-sub">889N subscribers</span>
                                         <div class="singer-social">
@@ -303,7 +351,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_vu.jpg" alt="" class="singer-photo">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Vu</h3>
                                         <span class="singer-sub">953N subscribers</span>
                                         <div class="singer-social">
@@ -320,7 +368,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_thinhsuy.jpg" alt="" class="singer-photo origin-left">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Thinh Suy</h3>
                                         <span class="singer-sub">456N subscribers</span>
                                         <div class="singer-social">
@@ -335,7 +383,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_wn.jpg" alt="" class="singer-photo origin-left">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">W/N</h3>
                                         <span class="singer-sub">701N subscribers</span>
                                         <div class="singer-social">
@@ -350,7 +398,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_dalab.jpg" alt="" class="singer-photo">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">DaLab</h3>
                                         <span class="singer-sub">806N subscribers</span>
                                         <div class="singer-social">
@@ -365,7 +413,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_hoangdung.jpg" alt="" class="singer-photo">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Hoang Dung</h3>
                                         <span class="singer-sub">412N subscribers</span>
                                         <div class="singer-social">
@@ -382,7 +430,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_erik.jpg" alt="" class="singer-photo origin-left">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Erik</h3>
                                         <span class="singer-sub">1.72M subscribers</span>
                                         <div class="singer-social">
@@ -397,7 +445,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_hienho.jpg" alt="" class="singer-photo origin-left">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Hien Ho</h3>
                                         <span class="singer-sub">831N subscribers</span>
                                         <div class="singer-social">
@@ -412,7 +460,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_kicm.jpg" alt="" class="singer-photo">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">K-ICM</h3>
                                         <span class="singer-sub">4.88M subscribers</span>
                                         <div class="singer-social">
@@ -427,7 +475,7 @@
                             <div class="column column-4 singer-item">
                                 <div class="singer-box">
                                     <img src="./assets/image/singer_chipu.jpg" alt="" class="singer-photo">
-                                    <div class="singer singer-info">
+                                    <div class="singer-info">
                                         <h3 class="singer-name">Chi Pu</h3>
                                         <span class="singer-sub">1.41M subscribers</span>
                                         <div class="singer-social">
@@ -444,7 +492,7 @@
                 </div>
                 <div id="chart">
                     <h3 class="chart-heading">Daily Top Songs Vietnam</h3>
-                    <div class="row chart-container">
+                    <div class="chart-container">
                         <div class="chart-background">
                             <img id="js-chart-top" src="./assets/image/chart_top.jpg" alt="" class="chart-top">
                             <p class="chart-page">1 / 5</p>
@@ -731,75 +779,91 @@
                                     <h3 class="song-kind-heading">Browse all</h3>
                                     <div class="song-kind-box">
                                         <div class="song-kind-list">
-                                            <div class="column-4 song-kind-item color-item-3">
-                                                <h4 class="song-kind-title">Chill</h4>
-                                                <img src="./assets/image/kind_lofi.jpg" alt="" class="song-kind-photo">
+                                            <div class="song-kind-frame">
+                                                <div class="column-2 song-kind-item color-item-3">
+                                                    <h4 class="song-kind-title">Chill</h4>
+                                                    <img src="./assets/image/kind_lofi.jpg" alt="" class="song-kind-photo">
+                                                </div>
+                                                <div class="column-2 song-kind-item color-item-4">
+                                                    <h4 class="song-kind-title">Mood</h4>
+                                                    <img src="./assets/image/kind_vu.jpg" alt="" class="song-kind-photo">
+                                                </div>
                                             </div>
-                                            <div class="column-4 song-kind-item color-item-4">
-                                                <h4 class="song-kind-title">Mood</h4>
-                                                <img src="./assets/image/kind_vu.jpg" alt="" class="song-kind-photo">
-                                            </div>
-                                            <div class="column-4 song-kind-item color-item-5">
-                                                <h4 class="song-kind-title">Romance</h4>
-                                                <img src="./assets/image/kind_amee.jpg" alt="" class="song-kind-photo">
-                                            </div>
-                                            <div class="column-4 song-kind-item color-item-6">
-                                                <h4 class="song-kind-title">R&B</h4>
-                                                <img src="./assets/image/kind_chungta.png" alt="" class="song-kind-photo">
-                                            </div>
-                                        </div>
-                                        <div class="song-kind-list">
-                                            <div class="column-4 song-kind-item color-item-7">
-                                                <h4 class="song-kind-title">V-POP</h4>
-                                                <img src="./assets/image/kind_sontungmtp_1.jpg" alt="" class="song-kind-photo">
-                                            </div>
-                                            <div class="column-4 song-kind-item color-item-8">
-                                                <h4 class="song-kind-title">C-POP</h4>
-                                                <img src="./assets/image/kind_cpop.jpg" alt="" class="song-kind-photo">
-                                            </div>
-                                            <div class="column-4 song-kind-item color-item-9">
-                                                <h4 class="song-kind-title">US&UK</h4>
-                                                <img src="./assets/image/kind_usuk.jpg" alt="" class="song-kind-photo">
-                                            </div>
-                                            <div class="column-4 song-kind-item color-item-10">
-                                                <h4 class="song-kind-title">K-POP</h4>
-                                                <img src="./assets/image/kind_bts.jpg" alt="" class="song-kind-photo">
+                                            <div class="song-kind-frame">
+                                                <div class="column-2 song-kind-item color-item-5">
+                                                    <h4 class="song-kind-title">Romance</h4>
+                                                    <img src="./assets/image/kind_amee.jpg" alt="" class="song-kind-photo">
+                                                </div>
+                                                <div class="column-2 song-kind-item color-item-6">
+                                                    <h4 class="song-kind-title">R&B</h4>
+                                                    <img src="./assets/image/kind_chungta.png" alt="" class="song-kind-photo">
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="song-kind-list">
-                                            <div class="column-4 song-kind-item color-item-11">
-                                                <h4 class="song-kind-title">Lunar New Year</h4>
-                                                <img src="./assets/image/kind_newyear.jpg" alt="" class="song-kind-photo">
+                                            <div class="song-kind-frame">
+                                                <div class="column-2 song-kind-item color-item-7">
+                                                    <h4 class="song-kind-title">V-POP</h4>
+                                                    <img src="./assets/image/kind_sontungmtp_1.jpg" alt="" class="song-kind-photo">
+                                                </div>
+                                                <div class="column-2 song-kind-item color-item-8">
+                                                    <h4 class="song-kind-title">C-POP</h4>
+                                                    <img src="./assets/image/kind_cpop.jpg" alt="" class="song-kind-photo">
+                                                </div>
                                             </div>
-                                            <div class="column-4 song-kind-item color-item-12">
-                                                <h4 class="song-kind-title">Summer</h4>
-                                                <img src="./assets/image/kind_summer.jpg" alt="" class="song-kind-photo">
-                                            </div>
-                                            <div class="column-4 song-kind-item color-item-13">
-                                                <h4 class="song-kind-title">Autumn</h4>
-                                                <img src="./assets/image/kind_autumn.jpg" alt="" class="song-kind-photo">
-                                            </div>
-                                            <div class="column-4 song-kind-item color-item-14">
-                                                <h4 class="song-kind-title">Christmas</h4>
-                                                <img src="./assets/image/kind_christmas.jpg" alt="" class="song-kind-photo">
+                                            <div class="song-kind-frame">
+                                                <div class="column-2 song-kind-item color-item-9">
+                                                    <h4 class="song-kind-title">US&UK</h4>
+                                                    <img src="./assets/image/kind_usuk.jpg" alt="" class="song-kind-photo">
+                                                </div>
+                                                <div class="column-2 song-kind-item color-item-10">
+                                                    <h4 class="song-kind-title">K-POP</h4>
+                                                    <img src="./assets/image/kind_bts.jpg" alt="" class="song-kind-photo">
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="song-kind-list">
-                                            <div class="column-4 song-kind-item color-item-15">
-                                                <h4 class="song-kind-title">Sleep</h4>
-                                                <img src="./assets/image/kind_cat.jpg" alt="" class="song-kind-photo">
+                                            <div class="song-kind-frame">
+                                                <div class="column-2 song-kind-item color-item-11">
+                                                    <h4 class="song-kind-title">Lunar New Year</h4>
+                                                    <img src="./assets/image/kind_newyear.jpg" alt="" class="song-kind-photo">
+                                                </div>
+                                                <div class="column-2 song-kind-item color-item-12">
+                                                    <h4 class="song-kind-title">Summer</h4>
+                                                    <img src="./assets/image/kind_summer.jpg" alt="" class="song-kind-photo">
+                                                </div>
                                             </div>
-                                            <div class="column-4 song-kind-item color-item-16">
-                                                <h4 class="song-kind-title">Gaming</h4>
-                                                <img src="./assets/image/kind_game.jpg" alt="" class="song-kind-photo">
+                                            <div class="song-kind-frame">
+                                                <div class="column-2 song-kind-item color-item-13">
+                                                    <h4 class="song-kind-title">Autumn</h4>
+                                                    <img src="./assets/image/kind_autumn.jpg" alt="" class="song-kind-photo">
+                                                </div>
+                                                <div class="column-2 song-kind-item color-item-14">
+                                                    <h4 class="song-kind-title">Christmas</h4>
+                                                    <img src="./assets/image/kind_christmas.jpg" alt="" class="song-kind-photo">
+                                                </div>
                                             </div>
-                                            <div class="column-4 song-kind-item color-item-17">
-                                                <h4 class="song-kind-title">Instrumental</h4>
-                                                <img src="./assets/image/kind_instrument.jpg" alt="" class="song-kind-photo">
+                                        </div>
+                                        <div class="song-kind-list">
+                                            <div class="song-kind-frame">
+                                                <div class="column-2 song-kind-item color-item-15">
+                                                    <h4 class="song-kind-title">Sleep</h4>
+                                                    <img src="./assets/image/kind_cat.jpg" alt="" class="song-kind-photo">
+                                                </div>
+                                                <div class="column-2 song-kind-item color-item-16">
+                                                    <h4 class="song-kind-title">Gaming</h4>
+                                                    <img src="./assets/image/kind_game.jpg" alt="" class="song-kind-photo">
+                                                </div>
                                             </div>
-                                            <div class="column-4 song-kind-item color-item-18">
-                                                <h4 class="song-kind-title">Dance/Electronic</h4>
-                                                <img src="./assets/image/kind_dance.jpg" alt="" class="song-kind-photo">
+                                            <div class="song-kind-frame">
+                                                <div class="column-2 song-kind-item color-item-17">
+                                                    <h4 class="song-kind-title">Instrumental</h4>
+                                                    <img src="./assets/image/kind_instrument.jpg" alt="" class="song-kind-photo">
+                                                </div>
+                                                <div class="column-2 song-kind-item color-item-18">
+                                                    <h4 class="song-kind-title">Dance / Electronic</h4>
+                                                    <img src="./assets/image/kind_dance.jpg" alt="" class="song-kind-photo">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -994,12 +1058,16 @@
                 <div id="control">
                     <div class="control-head column-3">
                         <img src="" alt="" class="control-photo">
-                        <div class="control-decoration">
-                            <span class="control-song"></span>
-                            <span class="control-name"></span>
+                        <div class="control-frame">
+                            <div class="control-decoration">
+                                <span class="control-song"></span>
+                                <span class="control-name"></span>
+                            </div>
+                            <div class="control-handle">
+                                <i class="bi bi-heart-fill control-heart"></i>
+                                <span class="bi bi-three-dots control-select"></span>
+                            </div>
                         </div>
-                        <i class="bi bi-heart-fill control-heart"></i>
-                        <span class="bi bi-three-dots control-select"></span>
                     </div>
                     <div class="control-body column-3">
                         <div class="control-top">
@@ -1023,7 +1091,7 @@
                         </div>
                     </div>
                     <div class="control-tail column-3">
-                        <i class="bi bi-bluetooth control-bluetooth"></i>
+                        <i class="bi bi-alarm control-bluetooth"></i>
                         <div class="control-volume">
                             <i class="bi bi-volume-up icon-volume-up"></i>
                             <i class="bi bi-volume-mute icon-volume-mute"></i>
@@ -1037,8 +1105,12 @@
                     <div class="control-close">
                         <i class="bi bi-chevron-down control-finish"></i>
                     </div>
+                    <div class="control-select-mobile">
+                        <i class="bi bi-three-dots-vertical control-select-mobile-icon"></i>
+                    </div>
                     <p class="control-down">press "Enter" to turn on/off</p>
                 </div>
+                <i class="bi bi-music-note-beamed control-nav initialize"></i>
                 <div id="book">
                     <div class="book-container">
                         <div class="book-heading">Book singers for events in Vietnam</div>
@@ -1280,6 +1352,7 @@
             </div>
         </form>
     </div>
+
     <!--Sign Up-->
     <div class="modal js-modal-up">
         <form action="" method="POST" class="form" id="form-signUp">
@@ -1326,7 +1399,7 @@
             </div>
         </form>
     </div>
-
+    <div class="lock-screen"></div>
     <!-- Notice -->
     <div class="notice js-notice">
         <div class="notice-container js-notice-container">

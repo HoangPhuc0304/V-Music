@@ -22,6 +22,33 @@ var listChart=[
         length: 405
     },
     {
+        link: "https://www.youtube.com/watch?v=rIXhXaQ8tiM",
+        img: "./assets/image/chart_ndt.jpg",
+        avata: "./assets/image/song_ndt.jpg",
+        song: "Ngày đầu tiên",
+        name: "Duc Phuc",
+        audio: "./assets/audio/ngaydautien.mp3",    
+        length: 208
+    },
+    {
+        link: "https://www.youtube.com/watch?v=D80QnP0iRBo",
+        img: "./assets/image/chart_dnlli.jpg",
+        avata: "./assets/image/song_dnlli.jpg",
+        song: "Đau nhất là lặng im",
+        name: "Erik",
+        audio: "./assets/audio/daunhatlalangim.mp3",    
+        length: 286
+    },
+    {
+        link: "https://www.youtube.com/watch?v=ptSwuFTEYAo",
+        img: "./assets/image/chart_tmcgya.jpg",
+        avata: "./assets/image/song_tmcgya.jpg",
+        song: "Thay mọi cô gái yêu anh",
+        name: "Amee",
+        audio: "./assets/audio/thaymoicogaiyeuanh.flac",    
+        length: 215
+    },
+    {
         link: "https://www.youtube.com/watch?v=4CCGI83vOVo",
         img: "./assets/image/chart_domdom.jpg",
         avata: "./assets/image/song_domdom.jpg",
@@ -453,25 +480,6 @@ var listChart=[
         audio: "./assets/audio/tetdongday.flac",    
         length: 205
     },
-    {
-        link: "https://www.youtube.com/watch?v=ptSwuFTEYAo",
-        img: "./assets/image/chart_tmcgya.jpg",
-        avata: "./assets/image/song_tmcgya.jpg",
-        song: "Thay mọi cô gái yêu anh",
-        name: "Amee",
-        audio: "./assets/audio/thaymoicogaiyeuanh.flac",    
-        length: 215
-    },
-    {
-        link: "https://www.youtube.com/watch?v=rIXhXaQ8tiM",
-        img: "./assets/image/chart_ndt.jpg",
-        avata: "./assets/image/song_ndt.jpg",
-        song: "Ngày đầu tiên",
-        name: "Duc Phuc",
-        audio: "./assets/audio/ngaydautien.mp3",    
-        length: 208
-    }
-
 ];
 
 // cpop song list
@@ -484,6 +492,123 @@ const cpopList=[
         name: "Luc Ho",
         audio: "./assets/audio/cpop/amthanhcuatuyetroi.flac",    
         length: 311
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_ll.jpg",
+        avata: "./assets/image/cpop/avata_ll.jpg",
+        song: "Lạnh lẽo",
+        name: "Truong Bich Than, Duong Tong Vy",
+        audio: "./assets/audio/cpop/lanhleo.flac",    
+        length: 333
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_bn.jpg",
+        avata: "./assets/image/cpop/avata_bn.jpg",
+        song: "Bất nhiễm",
+        name: "Mao Bat Dich",
+        audio: "./assets/audio/cpop/batnhiem.mp3",    
+        length: 325
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_btdsckba.jpg",
+        avata: "./assets/image/cpop/avata_btdsckba.jpg",
+        song: "Bầu trời đầy sao không bằng anh",
+        name: "Ycccc",
+        audio: "./assets/audio/cpop/bautroidaysaokhongbanganh.mp3",    
+        length: 216
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_dhn.jpg",
+        avata: "./assets/image/cpop/avata_dhn.jpg",
+        song: "Đào hoa nặc",
+        name: "Dang Tu Ky",
+        audio: "./assets/audio/cpop/daohoanac.mp3",    
+        length: 219
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_nmns.jpg",
+        avata: "./assets/image/cpop/avata_nmns.jpg",
+        song: "Năm mươi năm sau",
+        name: "Tieu A That",
+        audio: "./assets/audio/cpop/nammuoinamsau.mp3",    
+        length: 283
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_km.jpg",
+        avata: "./assets/image/cpop/avata_km.jpg",
+        song: "Khách mời",
+        name: "Lo Phi Van",
+        audio: "./assets/audio/cpop/khachmoi.mp3",    
+        length: 270
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_bqng.jpg",
+        avata: "./assets/image/cpop/avata_bqng.jpg",
+        song: "Bất quá nhân gian",
+        name: "Hai Lai A Loc",
+        audio: "./assets/audio/cpop/batquanhangian.mp3",    
+        length: 250
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_kb.jpg",
+        avata: "./assets/image/cpop/avata_kb.jpg",
+        song: "Không bằng",
+        name: "Tan Hai Thanh",
+        audio: "./assets/audio/cpop/khongbang.mp3",    
+        length: 180
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_actdrxedk.jpg",
+        avata: "./assets/image/cpop/avata_actdrxedk.jpg",
+        song: "Anh có thể đừng rời xa em được không",
+        name: "Mac Khieu Ty Ty",
+        audio: "./assets/audio/cpop/anhcothedungroixaemduockhong.mp3",    
+        length: 236
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_hnhv.jpg",
+        avata: "./assets/image/cpop/avata_hnhv.jpg",
+        song: "Hàng ngàn hàng vạn",
+        name: "Tham Hai Ngu Tu Tuong",
+        audio: "./assets/audio/cpop/hangnganhangvan.mp3",    
+        length: 246
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_mdsh.jpg",
+        avata: "./assets/image/cpop/avata_mdsh.jpg",
+        song: "Một đường sinh hoa",
+        name: "On Dich Tam",
+        audio: "./assets/audio/cpop/motduongsinhhoa.mp3",    
+        length: 256
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_tab.png",
+        avata: "./assets/image/cpop/avata_tab.png",
+        song: "Trường An biệt",
+        name: "Vuong Ngoc Manh",
+        audio: "./assets/audio/cpop/truonganbiet.mp3",    
+        length: 246
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_vg.jpg",
+        avata: "./assets/image/cpop/avata_vg.jpg",
+        song: "Vây giữ",
+        name: "Vuong Tinh Van Khong Map",
+        audio: "./assets/audio/cpop/vaygiu.mp3",    
+        length: 234
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
@@ -953,123 +1078,6 @@ const cpopList=[
         audio: "./assets/audio/cpop/yeugiangsoncangyeumynhan.mp3",    
         length: 236
     },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_ll.jpg",
-        avata: "./assets/image/cpop/avata_ll.jpg",
-        song: "Lạnh lẽo",
-        name: "Truong Bich Than, Duong Tong Vy",
-        audio: "./assets/audio/cpop/lanhleo.flac",    
-        length: 333
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_bn.jpg",
-        avata: "./assets/image/cpop/avata_bn.jpg",
-        song: "Bất nhiễm",
-        name: "Mao Bat Dich",
-        audio: "./assets/audio/cpop/batnhiem.mp3",    
-        length: 325
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_btdsckba.jpg",
-        avata: "./assets/image/cpop/avata_btdsckba.jpg",
-        song: "Bầu trời đầy sao không bằng anh",
-        name: "Ycccc",
-        audio: "./assets/audio/cpop/bautroidaysaokhongbanganh.mp3",    
-        length: 216
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_dhn.jpg",
-        avata: "./assets/image/cpop/avata_dhn.jpg",
-        song: "Đào hoa nặc",
-        name: "Dang Tu Ky",
-        audio: "./assets/audio/cpop/daohoanac.mp3",    
-        length: 219
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_nmns.jpg",
-        avata: "./assets/image/cpop/avata_nmns.jpg",
-        song: "Năm mươi năm sau",
-        name: "Tieu A That",
-        audio: "./assets/audio/cpop/nammuoinamsau.mp3",    
-        length: 283
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_km.jpg",
-        avata: "./assets/image/cpop/avata_km.jpg",
-        song: "Khách mời",
-        name: "Lo Phi Van",
-        audio: "./assets/audio/cpop/khachmoi.mp3",    
-        length: 270
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_bqng.jpg",
-        avata: "./assets/image/cpop/avata_bqng.jpg",
-        song: "Bất quá nhân gian",
-        name: "Hai Lai A Loc",
-        audio: "./assets/audio/cpop/batquanhangian.mp3",    
-        length: 250
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_kb.jpg",
-        avata: "./assets/image/cpop/avata_kb.jpg",
-        song: "Không bằng",
-        name: "Tan Hai Thanh",
-        audio: "./assets/audio/cpop/khongbang.mp3",    
-        length: 180
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_actdrxedk.jpg",
-        avata: "./assets/image/cpop/avata_actdrxedk.jpg",
-        song: "Anh có thể đừng rời xa em được không",
-        name: "Mac Khieu Ty Ty",
-        audio: "./assets/audio/cpop/anhcothedungroixaemduockhong.mp3",    
-        length: 236
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_hnhv.jpg",
-        avata: "./assets/image/cpop/avata_hnhv.jpg",
-        song: "Hàng ngàn hàng vạn",
-        name: "Tham Hai Ngu Tu Tuong",
-        audio: "./assets/audio/cpop/hangnganhangvan.mp3",    
-        length: 246
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_mdsh.jpg",
-        avata: "./assets/image/cpop/avata_mdsh.jpg",
-        song: "Một đường sinh hoa",
-        name: "On Dich Tam",
-        audio: "./assets/audio/cpop/motduongsinhhoa.mp3",    
-        length: 256
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_tab.png",
-        avata: "./assets/image/cpop/avata_tab.png",
-        song: "Trường An biệt",
-        name: "Vuong Ngoc Manh",
-        audio: "./assets/audio/cpop/truonganbiet.mp3",    
-        length: 246
-    },
-    {
-        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_vg.jpg",
-        avata: "./assets/image/cpop/avata_vg.jpg",
-        song: "Vây giữ",
-        name: "Vuong Tinh Van Khong Map",
-        audio: "./assets/audio/cpop/vaygiu.mp3",    
-        length: 234
-    }
 ];
 
 // lunar new year song list

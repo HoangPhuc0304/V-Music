@@ -16,6 +16,7 @@ const nameSinger=$('.control-name');
 const player=$('.control-play');
 const control=$('#control')
 const closeBtn=$('.control-finish');
+const openControl = $('.control-nav');
 const preBtn = $('.control-pre');
 const nextBtn=$('.control-next');
 const randomBtn=$('.control-random');
@@ -38,7 +39,6 @@ const kindFrames=$$('.song-kind-background');
 const kindLists=$$('.song-top-list');
 const kindHeaders=$$('.song-top-header');
 const kindExits=$$('.song-top-nav-left');
-
 
 
 
@@ -490,8 +490,15 @@ const YourLibrary = {
             const rect = e.target.getBoundingClientRect();
             var positionClick=e.clientX-rect.left;
             audio.currentTime=positionClick/this.offsetWidth*audio.duration;
-            audio.timeupdate();
+            audio.timeupdate;
         }
+        propressTrack.ontouchstart=function(e){
+            const rect = e.target.getBoundingClientRect();
+            var positionClick=e.touches['0'].clientX-rect.left;
+            audio.currentTime=positionClick/this.offsetWidth*audio.duration;
+            audio.timeupdate;
+        }
+
         audio.volume=0.6;
         volumeProgress.style.width=`${audio.volume*100}%`;
         //When click volume
@@ -523,11 +530,6 @@ const YourLibrary = {
                 }
             }
         });
-
-        // When close Control
-        closeBtn.onclick=function() {
-            control.style.display="none";
-        }
     },
     defineProperties: function(){
         Object.defineProperty(this,'currentSong',{
@@ -960,6 +962,7 @@ const Search={
         this.handleEvent();
     }
 }
+
 
 
 nav.start();
