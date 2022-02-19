@@ -701,6 +701,7 @@ html {
 .chart-top-box {
     display: inline-block;
     height: 100%;
+    width: auto;
     border-radius: 3px;
     vertical-align:top;
     border: none;
