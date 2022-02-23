@@ -283,7 +283,7 @@
     .control-tail.column-3 {
         width: 5%;
     }
-    .control-bluetooth,
+    .control-clock,
     .control-open,
     .control-down,
     .control-range,
@@ -440,9 +440,9 @@
         margin-right: 16px;
     }
     .nav-item {
-        padding: 0;
+        padding: 0 8px;
+        margin: 0;
         padding-right: 80%;
-        margin: 0 4px;
         list-style-type: none;
         color: #fff;
         text-decoration: none;
@@ -453,6 +453,7 @@
     .nav-item:hover {
         color: #fff;
         background-color: rgba(0,0,0,0.3);
+        border-radius: 3px;
     }
     #user {
         list-style-type: none;
@@ -1072,11 +1073,21 @@
         right: 0;
         width: 100%;
         height: 100%;
-        flex-direction: column;
         background-image: linear-gradient(rgb(68, 9, 63),rgb(20, 1, 19));
         border-top: none;
         z-index: 3;
         animation: FadeDown ease 0.5s;
+    }
+    .control-wrapper {
+        height: 100%;
+        flex-direction: column;
+        flex-shrink: 1;
+        /* overflow: hidden overlay; */
+        overflow: auto;
+        overscroll-behavior: contain;
+        scroll-behavior: smooth;
+        justify-content: flex-start;
+        will-change: scroll-position;
     }
     @keyframes FadeDown {
         from {
@@ -1134,16 +1145,17 @@
     }
     .control-song {
         font-size: 24px;
-        padding: 0;
-        height: 30px;
-        margin: 2% 0;
+        -webkit-line-clamp: 1;
+        /* height: 30px; */
+        /* margin: 2% 0; */
+        /* white-space: nowrap; */
     }
     .control-name {
         font-size: 16px;
-        padding: 0;
-        height: 20px;
+        /* height: 20px; */
         color: rgba(255,255,255,0.6);
-        margin: auto 0;
+        /* margin: auto 0; */
+        /* white-space: nowrap; */
     }
     .control-handle {
         display: flex;
@@ -1199,9 +1211,14 @@
     .control-down {
         display: none;
     }
-    .control-bluetooth,
+    .control-clock {
+        font-size: 22px;
+        margin: 0 8px;
+    }
     .control-volume {
         font-size: 24px;
+        margin: 0 8px;
+        /* padding: 12px; */
     }
     .control-close {
         position: absolute;

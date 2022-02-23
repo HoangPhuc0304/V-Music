@@ -251,8 +251,8 @@ controlNav.ontouchend=function(e) {
 }
 // When close Control
 closeBtn.onclick=function() {
-    control.style.display="none";
+    control.style.display="none"
 }
 controlNav.onclick=function() {
-    control.style.display="flex";
+    control.style.display="flex"
 }

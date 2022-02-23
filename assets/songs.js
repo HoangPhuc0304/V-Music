@@ -142,6 +142,7 @@ const YourLibrary = {
         new Array(200).fill(0),
         new Array(200).fill(0),
     ],
+    loudVolume: 0.6,
     config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY))||{},
     setConfig: function(key,value){
         this.config[key]=value;
@@ -499,7 +500,7 @@ const YourLibrary = {
             audio.timeupdate;
         }
 
-        audio.volume=0.6;
+        audio.volume=this.loudVolume;
         volumeProgress.style.width=`${audio.volume*100}%`;
         //When click volume
         volumeBtn.onclick=function(){
@@ -507,7 +508,7 @@ const YourLibrary = {
             if(_this.isMuting) {
                 audio.volume=0;
             } else {
-                audio.volume=0.8;
+                audio.volume=_this.loudVolume;
             }
             volumeProgress.style.width=`${audio.volume*100}%`
             this.classList.toggle('muting');
@@ -516,8 +517,14 @@ const YourLibrary = {
         volumeTrack.onclick=function(e){
             const rect = e.target.getBoundingClientRect();
             var positionClick=e.clientX-rect.left;
-            audio.volume=positionClick/this.offsetWidth;
-            volumeProgress.style.width=`${audio.volume*100}%`
+            _this.loudVolume = positionClick/this.offsetWidth;
+            audio.volume = _this.loudVolume;
+            volumeProgress.style.width=`${audio.volume*100}%`;
+            const checkMuting = volumeBtn.getAttribute('class').includes('muting');
+            if(checkMuting) {
+                volumeBtn.classList.remove('muting');
+                _this.isMuting=!_this.isMuting;
+            }
         }
 
         // When keyup "Enter" on document
@@ -648,6 +655,7 @@ const YourLibrary = {
         // Remove song from your library
         const removeSongs=$$('.song-songs-remove');
         for (let i=0;i<removeSongs.length;i++) {
+            console.log(removeSongs.length)
             removeSongs[i].onclick=function(){
                 if($('.song-songs-item.song-active').contains(this)){
                     var tempNumber=$('.song-songs-item.song-active').getAttribute('data-index');
@@ -685,6 +693,7 @@ const YourLibrary = {
                     if ($$('.song-top-item')[j].contains(this)) {
                         var tempAdd=$$('.song-top-item')[j].getAttribute("data-index");
                         _this.songs[0].push(_this.songs[indexCurrent][tempAdd]);
+                        console.log(_this)
                         if (_this.currentPage==0){
                             _this.render();
                         }
@@ -692,7 +701,7 @@ const YourLibrary = {
                 }
                 addSuccess[i].classList.add('active');
                 for(var j=0;j<addSuccess.length;j++) {
-                    if(j!=i){
+                    if(j!=i) {
                         addSuccess[j].classList.remove('active');
                     }
                 }
