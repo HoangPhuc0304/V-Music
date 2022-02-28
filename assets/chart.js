@@ -13,13 +13,13 @@ var listChart=[
         length: 301
     },
     {
-        link: "https://www.youtube.com/watch?v=UVbv-PJXm14",
-        img: "./assets/image/chart_mangtienvechome.jpg",
-        avata: "./assets/image/song_mangtienvechome.jpg",
-        song: "Mang tiền về cho mẹ",
-        name: "Den",
-        audio: "./assets/audio/mtvcm.flac",
-        length: 405
+        link: "https://www.youtube.com/watch?v=FVuqNi0inPE",
+        img: "./assets/image/chart_nytllsd.jpg",
+        avata: "./assets/image/song_nytllsd.jpg",
+        song: "Người yêu tôi lạnh lùng sắt đá",
+        name: "Mr. Siro",
+        audio: "./assets/audio/nytllsd.mp3",
+        length: 303
     },
     {
         link: "https://www.youtube.com/watch?v=rIXhXaQ8tiM",
@@ -29,6 +29,24 @@ var listChart=[
         name: "Duc Phuc",
         audio: "./assets/audio/ngaydautien.mp3",    
         length: 208
+    },
+    {
+        link: "https://www.youtube.com/watch?v=UVbv-PJXm14",
+        img: "./assets/image/chart_mangtienvechome.jpg",
+        avata: "./assets/image/song_mangtienvechome.jpg",
+        song: "Mang tiền về cho mẹ",
+        name: "Den",
+        audio: "./assets/audio/mtvcm.flac",
+        length: 405
+    },
+    {
+        link: "https://www.youtube.com/watch?v=oNIwqIeNpU4",
+        img: "./assets/image/chart_seetinh.jpg",
+        avata: "./assets/image/song_seetinh.jpg",
+        song: "See tình",
+        name: "Hoang Thuy Linh",
+        audio: "./assets/audio/seetinh.mp3",    
+        length: 185
     },
     {
         link: "https://www.youtube.com/watch?v=D80QnP0iRBo",
@@ -703,7 +721,7 @@ const cpopList=[
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
         img: "./assets/image/cpop/img_dm.jpg",
-        avata: "./assets/image/cpop/avta_dm.jpg",
+        avata: "./assets/image/cpop/avata_dm.jpg",
         song: "Đông miên",
         name: "Tu Nam",
         audio: "./assets/audio/cpop/dongmien.flac",    
@@ -874,7 +892,7 @@ const cpopList=[
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
         img: "./assets/image/cpop/img_nkv.jpg",
-        avata: "./assets/image/avata_nkv.jpg",
+        avata: "./assets/image/cpop/avata_nkv.jpg",
         song: "Người kế vị",
         name: "Nham Nhien",
         audio: "./assets/audio/cpop/nguoikevi.mp3",    
@@ -883,7 +901,7 @@ const cpopList=[
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
         img: "./assets/image/cpop/img_ntdas.jpg",
-        avata: "./assets/image/avata_ntdas.jpg",
+        avata: "./assets/image/cpop/avata_ntdas.jpg",
         song: "Người theo đuổi ánh sáng",
         name: "Tu Vi",
         audio: "./assets/audio/cpop/nguoitheoduoianhsang.mp3",    
@@ -1068,6 +1086,51 @@ const cpopList=[
         name: "Tiet Khai Ky, V.A",
         audio: "./assets/audio/cpop/voythuc.mp3",    
         length: 221
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_kskccctgda.jpg",
+        avata: "./assets/image/cpop/avata_kskccctga.jpg",
+        song: "Kiếp sau không chắc còn có thể được anh",
+        name: "Mac Khieu Ty Ty",
+        audio: "./assets/audio/cpop/kskccctgda.mp3",    
+        length: 232
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_tkt.jpg",
+        avata: "./assets/image/cpop/avata_tkt.jpg",
+        song: "Trạm khí tượng",
+        name: "Uu",
+        audio: "./assets/audio/cpop/tkt.mp3",    
+        length: 228
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_ksnlmds.jpg",
+        avata: "./assets/image/cpop/avata_ksnlmds.jpg",
+        song: "Kiếp sau nguyện làm một đóa sen",
+        name: "Nguy Tan Vu",
+        audio: "./assets/audio/cpop/ksnlmds.mp3",    
+        length: 302
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_ctc.jpg",
+        avata: "./assets/image/cpop/avata_ctc.jpg",
+        song: "Cưu trưởng cơ",
+        name: "Diep Huyen Thanh",
+        audio: "./assets/audio/cpop/ctc.mp3",    
+        length: 220
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_nnt.jpg",
+        avata: "./assets/image/cpop/avata_nnt.jpg",
+        song: "Nữ nhi tình",
+        name: "Dong Le",
+        audio: "./assets/audio/cpop/nnt.mp3",    
+        length: 295
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",

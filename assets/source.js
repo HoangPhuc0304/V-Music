@@ -1,5 +1,5 @@
 // Modal (SignIn+SignUp)
-const signBtn_In = document.querySelector('.js-sign-in');
+const signBtn_In = document.querySelectorAll('.js-sign-in');
 const modal_In = document.querySelector('.js-modal-in');
 const modalContainer_In = document.querySelector('#form-signIn');
 const modalClose_In = document.querySelector('#form-signIn .form-close');
@@ -14,14 +14,16 @@ modalChange_In.onclick = function() {
     HideModalIn();
     ShowModalUp();
 }
-signBtn_In.addEventListener('click',ShowModalIn);
+for(let i=0;i<signBtn_In.length;i++) {
+    signBtn_In[i].addEventListener('click',ShowModalIn);
+}
 modalClose_In.addEventListener('click',HideModalIn);
 modal_In.addEventListener('click',HideModalIn);
 modalContainer_In.addEventListener('click',function(event){
     event.stopPropagation();
 })
 //---------------------------------------------------------------
-const signBtn_Up = document.querySelector('.js-sign-up');
+const signBtn_Up = document.querySelectorAll('.js-sign-up');
 const modal_Up = document.querySelector('.js-modal-up');
 const modalContainer_Up = document.querySelector('#form-signUp');
 const modalClose_Up = document.querySelector('#form-signUp .form-close');
@@ -38,7 +40,9 @@ modalChange_Up.onclick = function() {
     HideModalUp();
     ShowModalIn();
 }
-signBtn_Up.addEventListener('click',ShowModalUp);
+for(let i=0;i<signBtn_Up.length;i++) {
+    signBtn_Up[i].addEventListener('click',ShowModalUp);
+}
 modalClose_Up.addEventListener('click',HideModalUp);
 modal_Up.addEventListener('click',HideModalUp);
 modalContainer_Up.addEventListener('click',function(event){
@@ -199,6 +203,28 @@ function SlideEvent (ms){
     });
 }
 
+//---------------------------------------------------------------
+//Footer
+const spring = document.querySelector('.footer-spring')
+const summer = document.querySelector('.footer-summer')
+const autumn = document.querySelector('.footer-autumn')
+const winter = document.querySelector('.footer-winter')
+const d = new Date()
+const month = d.getMonth()
+if (month < 3) {
+    spring.classList.add('active')
+} else if (month >= 3 && month < 6) {
+    summer.classList.add('active')
+} else if (month >= 6 && month < 9) {
+    autumn.classList.add('active')
+} else {
+    winter.classList.add('active')
+}
+
+
+
+
+//---------------------------------------------------------------
 /* Mobile */
 const navOpen = document.querySelector('.nav-open-icon');
 const navClose = document.querySelector('.nav-close-icon');
@@ -208,31 +234,31 @@ const closeBtn=document.querySelector('.control-finish');
 
 navOpen.onclick = function() {
     document.querySelector('#nav').classList.add('open')
-    document.querySelector('#user').classList.add('open')
-    document.querySelector('.nav-close-icon').classList.add('open')
-    document.querySelector('.nav-follow').classList.add('open')
-    document.querySelector('.nav-copyright').classList.add('open')
+    // document.querySelector('#user').classList.add('open')
+    // document.querySelector('.nav-close-icon').classList.add('open')
+    // document.querySelector('.nav-follow').classList.add('open')
+    // document.querySelector('.nav-copyright').classList.add('open')
     document.querySelector('.lock-screen').classList.add('active')
     document.querySelector('#control').classList.add('remove')
 }
 navClose.onclick = function() {
     document.querySelector('#nav').classList.add('hiding')
-    document.querySelector('#user').classList.add('hiding')
-    document.querySelector('.nav-close-icon').classList.add('hiding')
-    document.querySelector('.nav-follow').classList.add('hiding')
-    document.querySelector('.nav-copyright').classList.add('hiding')
+    // document.querySelector('#user').classList.add('hiding')
+    // document.querySelector('.nav-close-icon').classList.add('hiding')
+    // document.querySelector('.nav-follow').classList.add('hiding')
+    // document.querySelector('.nav-copyright').classList.add('hiding')
     setTimeout(function(){
         document.querySelector('#nav').classList.remove('hiding')
-        document.querySelector('#user').classList.remove('hiding')
-        document.querySelector('.nav-close-icon').classList.remove('hiding')
-        document.querySelector('.nav-follow').classList.remove('hiding')
-        document.querySelector('.nav-copyright').classList.remove('hiding')
+        // document.querySelector('#user').classList.remove('hiding')
+        // document.querySelector('.nav-close-icon').classList.remove('hiding')
+        // document.querySelector('.nav-follow').classList.remove('hiding')
+        // document.querySelector('.nav-copyright').classList.remove('hiding')
         setTimeout(function() {
             document.querySelector('#nav').classList.remove('open')
-            document.querySelector('#user').classList.remove('open')
-            document.querySelector('.nav-close-icon').classList.remove('open')
-            document.querySelector('.nav-follow').classList.remove('open')
-            document.querySelector('.nav-copyright').classList.remove('open')
+            // document.querySelector('#user').classList.remove('open')
+            // document.querySelector('.nav-close-icon').classList.remove('open')
+            // document.querySelector('.nav-follow').classList.remove('open')
+            // document.querySelector('.nav-copyright').classList.remove('open')
             document.querySelector('.lock-screen').classList.remove('active')
             document.querySelector('#control').classList.remove('remove')
         },10)

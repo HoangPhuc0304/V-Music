@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    
 }
   
 /* Works on Chrome, Edge, and Safari */
@@ -174,17 +176,15 @@ html {
 .user-divide {
     display: inline-block;
 }
-.nav-close-icon,
-.nav-open-icon {
-    display: none;
-}
-.nav-follow {
-    display: none;
-}
-.nav-copyright {
-    display: none;
-}
 .lock-screen {
+    display: none;
+}
+/*Mobile*/
+#user-mobile,
+.nav-close-icon,
+.nav-open-icon,
+.nav-follow,
+.nav-copyright {
     display: none;
 }
 /*Header (Effect)*/
@@ -217,7 +217,8 @@ html {
     max-height: calc(100vh - 32px);
     flex-shrink: 1;
     flex-direction: column;
-    overflow: hidden overlay;
+    overflow: auto;
+    overscroll-behavior: contain;
     scroll-behavior: smooth;
     justify-content: flex-start;
     will-change: scroll-position;
@@ -1565,17 +1566,27 @@ html {
 }
 .footer-season {
     position: absolute;
-    top: 20px;
+    top: 5px;
     right: 0px;
     width: 25%;
 }
-.footer-spring {
+.footer-spring,
+.footer-summer,
+.footer-autumn,
+.footer-winter {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     float: left;
     width: 100%;
     height: 100%;
+    display: none;
+}
+.footer-spring.active,
+.footer-summer.active,
+.footer-autumn.active,
+.footer-winter.active {
+    display: block;
 }
 .footer-tail {
     position: absolute;
