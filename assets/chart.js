@@ -18,7 +18,7 @@ var listChart=[
         avata: "./assets/image/song_nytllsd.jpg",
         song: "Người yêu tôi lạnh lùng sắt đá",
         name: "Mr. Siro",
-        audio: "./assets/audio/nytllsd.mp3",
+        audio: "./assets/audio/ntyllsd.mp3",
         length: 303
     },
     {
@@ -101,6 +101,60 @@ var listChart=[
         name: "Thinh Suy",
         audio: "./assets/audio/tinylove.flac",
         length: 158
+    },
+    {
+        link: "https://www.youtube.com/watch?v=Z7tiB0xMrZg",
+        img: "./assets/image/chart_mbyvdd.jpg",
+        avata: "./assets/image/song_mbyvdd.jpg",
+        song: "Một bước yêu vạn dặm đau",
+        name: "Mr. Siro",
+        audio: "./assets/audio/mbyvdd.mp3",
+        length: 298
+    },
+    {
+        link: "https://www.youtube.com/watch?v=_esoNnEflzM",
+        img: "./assets/image/chart_ttecbd.jpg",
+        avata: "./assets/image/song_ttecbd.jpg",
+        song: "Trái tim em cũng biết đau",
+        name: "Bao Anh",
+        audio: "./assets/audio/ttecbd.mp3",
+        length: 302
+    },
+    {
+        link: "https://www.youtube.com/watch?v=OuNo8Tkb3lI",
+        img: "./assets/image/chart_dtcev.jpg",
+        avata: "./assets/image/song_dtcev.jpg",
+        song: "Đường tôi chở em về",
+        name: "Buitruonglinh",
+        audio: "./assets/audio/dtcev.mp3",
+        length: 266
+    },
+    {
+        link: "https://www.youtube.com/watch?v=PR_yVho1Txc",
+        img: "./assets/image/chart_missingyou.jpg",
+        avata: "./assets/image/song_missingyou.jpg",
+        song: "Missing you",
+        name: "Phuong Ly, Tinle",
+        audio: "./assets/audio/missingyou.mp3",
+        length: 242
+    },
+    {
+        link: "https://www.youtube.com/watch?v=0CIGPV3_MS4",
+        img: "./assets/image/chart_kcc.jpg",
+        avata: "./assets/image/song_kcc.jpg",
+        song: "Kiếp chồng chung",
+        name: "Nam em",
+        audio: "./assets/audio/kiepchongchung.mp3",
+        length: 229
+    },
+    {
+        link: "https://www.youtube.com/watch?v=RlBkvjVss-s",
+        img: "./assets/image/chart_sacvn.jpg",
+        avata: "./assets/image/song_sacvn.jpg",
+        song: "Sao anh chưa về nhà",
+        name: "Amee, Ricky Star",
+        audio: "./assets/audio/saoanhchuave.mp3",
+        length: 247
     },
     {
         link: "https://www.youtube.com/watch?v=ZwDxaM5VBJM",
@@ -987,6 +1041,150 @@ const cpopList=[
         name: "Doan Tich Mien, Tieu Dien Am Nhac Xa",
         audio: "./assets/audio/cpop/tatentruongan.mp3",    
         length: 209
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_knld.jpg",
+        avata: "./assets/image/cpop/avata_knld.jpg",
+        song: "Kim ngọc lương duyên",
+        name: "Ly Ky",
+        audio: "./assets/audio/cpop/kimngocluongduyen.mp3",    
+        length: 220
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_gtqtnn.jpg",
+        avata: "./assets/image/cpop/avata_gtqtnn.jpg",
+        song: "Gió thổi qua tám ngàn năm",
+        name: "To Tinh Diep",
+        audio: "./assets/audio/cpop/giothoiquatamngandam.mp3",    
+        length: 228
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_bmta.jpg",
+        avata: "./assets/image/cpop/avata_bmta.jpg",
+        song: "Bốn mùa trao anh",
+        name: "Trinh Huong",
+        audio: "./assets/audio/cpop/bonmuatraoanh.mp3",    
+        length: 248
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_ecok.jpg",
+        avata: "./assets/image/cpop/avata_ecok.jpg",
+        song: "Em có ổn không",
+        name: "Chau Hung Triet",
+        audio: "./assets/audio/cpop/emcoonkhong.mp3",    
+        length: 287
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_ltst.jpg",
+        avata: "./assets/image/cpop/avata_ltst.jpg",
+        song: "Lao tới sao trời",
+        name: "Ha Kinh Hien",
+        audio: "./assets/audio/cpop/laotoisaotroi.mp3",    
+        length: 204
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_thanhtru.jpg",
+        avata: "./assets/image/cpop/avata_thanhtru.jpg",
+        song: "Thanh trừ",
+        name: "Vuong Han Than, To Tinh Diep",
+        audio: "./assets/audio/cpop/thanhtru.mp3",    
+        length: 177
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_tamtonthienduong.jpg",
+        avata: "./assets/image/cpop/avata_tamtonthienduong.jpg",
+        song: "Tam tốn thiên đường",
+        name: "Nghiep Nghe Dan",
+        audio: "./assets/audio/cpop/tamthonthienduong.mp3",    
+        length: 290
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_cthk.jpg",
+        avata: "./assets/image/cpop/avata_cthk.jpg",
+        song: "Có thể hay không",
+        name: "Truong Tu Hao",
+        audio: "./assets/audio/cpop/cothehaykhong.mp3",    
+        length: 240
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_yhh.jpg",
+        avata: "./assets/image/cpop/avata_yhh.jpg",
+        song: "Yến vô hiết",
+        name: "Tuong Tuyet Nhi",
+        audio: "./assets/audio/cpop/yenvohiet.mp3",    
+        length: 201
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_luyennhantam.jpg",
+        avata: "./assets/image/cpop/avata_luyennhantam.jpg",
+        song: "Luyến nhân tâm",
+        name: "Nguy Tam Vu",
+        audio: "./assets/audio/cpop/luyennhantam.mp3",    
+        length: 208
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_tksl.jpg",
+        avata: "./assets/image/cpop/avata_tksl.jpg",
+        song: "Thời không sai lệch",
+        name: "Ngai Than",
+        audio: "./assets/audio/cpop/thoikhongsailech.mp3",    
+        length: 203
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_dungngoaicuoc.jpg",
+        avata: "./assets/image/cpop/avata_dungngoaicuoc.jpg",
+        song: "Đứng ngoài cuộc",
+        name: "Doan Tich Mien, Tieu Dien Am Nhac Xa",
+        audio: "./assets/audio/cpop/dungngoaicuoc.mp3",    
+        length: 213
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_gedl.jpg",
+        avata: "./assets/image/cpop/avata_gedl.jpg",
+        song: "Gặp em đúng lúc",
+        name: "Luan Tang",
+        audio: "./assets/audio/cpop/gapemdungluc.mp3",    
+        length: 197
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_anh.jpg",
+        avata: "./assets/image/cpop/avata_anh.jpg",
+        song: "Ảnh",
+        name: "Chau Tham",
+        audio: "./assets/audio/cpop/anh.mp3",    
+        length: 246
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_tglnvvgda.jpg",
+        avata: "./assets/image/cpop/avata_tglnvvgda.jpg",
+        song: "Thế giới lớn như vậy vẫn gặp được anh",
+        name: "Trinh Huong",
+        audio: "./assets/audio/cpop/tglnvvgda.mp3",    
+        length: 237
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_dtb.jpg",
+        avata: "./assets/image/cpop/avata_dtb.jpg",
+        song: "Đại thiên bồng",
+        name: "Lo Gia",
+        audio: "./assets/audio/cpop/daithienbong.mp3",    
+        length: 244
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
