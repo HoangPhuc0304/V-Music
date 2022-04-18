@@ -1129,7 +1129,7 @@ const cpopList=[
         avata: "./assets/image/cpop/avata_luyennhantam.jpg",
         song: "Luyến nhân tâm",
         name: "Nguy Tam Vu",
-        audio: "./assets/audio/cpop/luyennhantam.mp3",    
+        audio: "./assets/audio/cpop/luyennhantam.flac",    
         length: 208
     },
     {
@@ -1786,6 +1786,575 @@ const lunarnewyearList=[
     },
 ];
 
+const usukList = [
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_7rings.png",
+        avata: "./assets/image/usuk/avatar_7rings.jpg",
+        song: "7 rings",
+        name: "Ariana Grande",
+        audio: "./assets/audio/usuk/7rings.mp3",    
+        length: 178
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_A_little_love.jpg",
+        avata: "./assets/image/usuk/avatar_A_little_love.jpg",
+        song: "A little love",
+        name: "Yao Si Ting",
+        audio: "./assets/audio/usuk/A_little_love.mp3",    
+        length: 207
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_A_thousand_years.jpg",
+        avata: "./assets/image/usuk/avatar_A_thousand_years.jpg",
+        song: "A thousand years",
+        name: "Christina Perri",
+        audio: "./assets/audio/usuk/A_thousand_years.mp3",    
+        length: 286
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_abcdefu.jpeg",
+        avata: "./assets/image/usuk/avatar_abcdefu.png",
+        song: "abcdefu",
+        name: "GAYLE",
+        audio: "./assets/audio/usuk/abcdefu.mp3",    
+        length: 168
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_At_my_worst.jpeg",
+        avata: "./assets/image/usuk/avatar_At_my_worst.jpg",
+        song: "At my worst",
+        name: "Pink Sweat",
+        audio: "./assets/audio/usuk/At_my_worst.mp3",    
+        length: 170
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Attention.jpg",
+        avata: "./assets/image/usuk/avatar_Attention.png",
+        song: "Attention",
+        name: "Charlie Puth",
+        audio: "./assets/audio/usuk/Attention.mp3",    
+        length: 208
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Baby.jpeg",
+        avata: "./assets/image/usuk/avatar_Baby.jpg",
+        song: "Baby",
+        name: "Justin Bieber, Ludacris",
+        audio: "./assets/audio/usuk/Baby.mp3",    
+        length: 214
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Bad_guy.jpg",
+        avata: "./assets/image/usuk/avatar_Bad_guy.jpg",
+        song: "Bad guy",
+        name: "Billie Eilish",
+        audio: "./assets/audio/usuk/Bad_guy.mp3",    
+        length: 194
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Bam_Bam.jpg",
+        avata: "./assets/image/usuk/avatar_Bam_Bam.png",
+        song: "Bam Bam",
+        name: "Camila Cabello, Ed Sheeran",
+        audio: "./assets/audio/usuk/Bam_Bam.mp3",    
+        length: 206
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Beautiful_in_white.jpg",
+        avata: "./assets/image/usuk/avatar_Beautiful_in_white.jpg",
+        song: "Beautiful in white",
+        name: "Shane Filan",
+        audio: "./assets/audio/usuk/Beautiful_in_white.mp3",    
+        length: 232
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Believer.jpg",
+        avata: "./assets/image/usuk/avatar_Believer.jpg",
+        song: "Believer",
+        name: "Imagine Dragons",
+        audio: "./assets/audio/usuk/Believer.mp3",    
+        length: 203
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Blank_space.png",
+        avata: "./assets/image/usuk/avatar_Blank_space.png",
+        song: "Blank space",
+        name: "Taylor Swift",
+        audio: "./assets/audio/usuk/Blank_space.mp3",    
+        length: 231
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Build_a_bitch.jpg",
+        avata: "./assets/image/usuk/avatar_Build_a_bitch.jpg",
+        song: "Build a bitch",
+        name: "Bella Poarch",
+        audio: "./assets/audio/usuk/Build_a_bitch.mp3",    
+        length: 122
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Closer.jpg",
+        avata: "./assets/image/usuk/avatar_Closer.jpg",
+        song: "Closer",
+        name: "The Chainsmokers, Halsey",
+        audio: "./assets/audio/usuk/Closer.mp3",    
+        length: 245
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_dancingwithghost.jpg",
+        avata: "./assets/image/usuk/avatar_Dancing_with_your_ghost.jpg",
+        song: "Dancing with your ghost",
+        name: "Sasha Alex Slo",
+        audio: "./assets/audio/usuk/Dancing_with_your_ghost.mp3",    
+        length: 197
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Despacito.jpg",
+        avata: "./assets/image/usuk/avatar_Despacito.jpeg",
+        song: "Despacito",
+        name: "Luis Fonsi, Daddy Yankee",
+        audio: "./assets/audio/usuk/Despacito.mp3",    
+        length: 228
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Dont_matter.jpg",
+        avata: "./assets/image/usuk/avatar_Dont_matter.jpg",
+        song: "Don't matter",
+        name: "Akon",
+        audio: "./assets/audio/usuk/Dont_matter.mp3",    
+        length: 293
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Drivers_license.jpg",
+        avata: "./assets/image/usuk/avatar_Drivers_license.jpg",
+        song: "Drivers license",
+        name: "Olivia Rodrigo",
+        audio: "./assets/audio/usuk/Drivers_license.mp3",    
+        length: 242
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Easy_on_me.jpg",
+        avata: "./assets/image/usuk/avater_Easy_on_me.jpg",
+        song: "Easy on me",
+        name: "Adele",
+        audio: "./assets/audio/usuk/Easy_on_me.mp3",    
+        length: 224
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Everything_I_need.jpg",
+        avata: "./assets/image/usuk/avatar_EverythingINeed.jpg",
+        song: "Everything I need",
+        name: "Skylar Grey",
+        audio: "./assets/audio/usuk/Everything_I_need.mp3",    
+        length: 200
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Girls_like_you.jpg",
+        avata: "./assets/image/usuk/avatar_Girls_like_you.jpg",
+        song: "Girls like you",
+        name: "Maroon 5, Cardi B",
+        audio: "./assets/audio/usuk/Girls_like_you.mp3",    
+        length: 235
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Happier.jpg",
+        avata: "./assets/image/usuk/avatar_Happier.jpg",
+        song: "Happier",
+        name: "Olivia Rodrigo",
+        audio: "./assets/audio/usuk/Happier.mp3",    
+        length: 175
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Havana.jpg",
+        avata: "./assets/image/usuk/avatar_Havana.png",
+        song: "Havana",
+        name: "Camila Cabello",
+        audio: "./assets/audio/usuk/Havana.mp3",    
+        length: 214
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Heathens.jpg",
+        avata: "./assets/image/usuk/avatar_Heathens.jpg",
+        song: "Heathens",
+        name: "Twenty One Pilots",
+        audio: "./assets/audio/usuk/Heathens.mp3",    
+        length: 195
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Hero.jpg",
+        avata: "./assets/image/usuk/avatar_Hero.jpg",
+        song: "Hero",
+        name: "Cash Cash, Christina Perri",
+        audio: "./assets/audio/usuk/Hero.mp3",    
+        length: 197
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_I_love_you_3000.jpg",
+        avata: "./assets/image/usuk/avatar_I_love_you_3000.jpg",
+        song: "I love you 3000",
+        name: "Stephanie Poetri",
+        audio: "./assets/audio/usuk/I_love_you_3000.mp3",    
+        length: 209
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Leave_the_door_open.jpg",
+        avata: "./assets/image/usuk/avatar_Leave_the_door_open.jpg",
+        song: "Leave the door open",
+        name: "Bruno Mars, Anders",
+        audio: "./assets/audio/usuk/Leave_the_door_open.mp3",    
+        length: 242
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Lemon_tree.jpg",
+        avata: "./assets/image/usuk/avatar_Lemon_tree.jpg",
+        song: "Lemon tree",
+        name: "Fools garden",
+        audio: "./assets/audio/usuk/Lemon_tree.mp3",    
+        length: 190
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Let_me_down_slowly.jpg",
+        avata: "./assets/image/usuk/avatar_Let_me_down_slowly.png",
+        song: "Let me down slowly",
+        name: "Alec Benjamin",
+        audio: "./assets/audio/usuk/Let_me_down_slowly.mp3",    
+        length: 169
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Light_switch.jpg",
+        avata: "./assets/image/usuk/avatar_Light_switch.jpg",
+        song: "Light switch",
+        name: "Charlie Puth",
+        audio: "./assets/audio/usuk/Light_switch.mp3",    
+        length: 185
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Like_my_father.jpg",
+        avata: "./assets/image/usuk/avatar_Like_my_father.jpg",
+        song: "Like my father",
+        name: "Jax",
+        audio: "./assets/audio/usuk/Like_my_father.mp3",    
+        length: 183
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Love_me_like_you_do.jpg",
+        avata: "./assets/image/usuk/avatar_Love_me_like_you_do.jpg",
+        song: "Love me like you do",
+        name: "Ellie Goulding",
+        audio: "./assets/audio/usuk/Love_me_like_you_do.mp3",    
+        length: 252
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Love_yourself.jpg",
+        avata: "./assets/image/usuk/avatar_Love_yourself.jpg",
+        song: "Love yourself",
+        name: "Justin Bieber",
+        audio: "./assets/audio/usuk/Love_yourself.mp3",    
+        length: 233
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Me!.jpg",
+        avata: "./assets/image/usuk/avatar_Me!.png",
+        song: "Me!",
+        name: "Taylor Swift",
+        audio: "./assets/audio/usuk/Me!.mp3",    
+        length: 193
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Mistletoe.jpg",
+        avata: "./assets/image/usuk/avatar_Mistletoe.jpg",
+        song: "Mistletoe",
+        name: "Justin Bieber",
+        audio: "./assets/audio/usuk/Mistletoe.mp3",    
+        length: 184
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_My_heart_will_go_on.png",
+        avata: "./assets/image/usuk/avatar_My_heart_will_go_on.jpg",
+        song: "My heart will go on",
+        name: "Celine Dion",
+        audio: "./assets/audio/usuk/My_heart_will_go_on.mp3",    
+        length: 281
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_No_lie.jpg",
+        avata: "./assets/image/usuk/avatar_No_lie.jpg",
+        song: "No lie",
+        name: "Sean Paul, Dua Lipa",
+        audio: "./assets/audio/usuk/No_lie.mp3",    
+        length: 221
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Nothings_gonna_change_my_love_for_you.jpg",
+        avata: "./assets/image/usuk/avatar_Nothings_gonna_change_my_love_for_you.jpg",
+        song: "Nothings gonna change my love for you",
+        name: "Westlife",
+        audio: "./assets/audio/usuk/Nothings_gonna_change_my_love_for_you.mp3",    
+        length: 229
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Older.jpeg",
+        avata: "./assets/image/usuk/avatar_Older.jpg",
+        song: "Older",
+        name: "Sasha Sloan",
+        audio: "./assets/audio/usuk/Older.mp3",    
+        length: 191
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Old_Town_Road.jpg",
+        avata: "./assets/image/usuk/avatar_Old_Town_Road.jpg",
+        song: "Old Town Road",
+        name: "Lil Nas X, Billy RayCyrus",
+        audio: "./assets/audio/usuk/Old_Town_Road.mp3",    
+        length: 157
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Peaches.jpg",
+        avata: "./assets/image/usuk/avatar_Peaches.jpg",
+        song: "Peaches",
+        name: "Justin Bieber, Daniel Caesar",
+        audio: "./assets/audio/usuk/Peaches.mp3",    
+        length: 198
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Perfect.jpg",
+        avata: "./assets/image/usuk/avatar_Perfect.jpg",
+        song: "Perfect",
+        name: "Ed Sheeran",
+        audio: "./assets/audio/usuk/Perfect.mp3",    
+        length: 263
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Reality.jpg",
+        avata: "./assets/image/usuk/avatar_Reality.jpg",
+        song: "Reality",
+        name: "Lost Frequencies, Janieck Devy",
+        audio: "./assets/audio/usuk/Reality.mp3",    
+        length: 159
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_See_you_again.png",
+        avata: "./assets/image/usuk/avatar_See_you_again.png",
+        song: "See you again",
+        name: "Wiz Khalifa, Charlie Puth",
+        audio: "./assets/audio/usuk/See_you_again.mp3",    
+        length: 229
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Senorita.jpg",
+        avata: "./assets/image/usuk/avatar_Senorita.jpg",
+        song: "Senorita",
+        name: "Shawn Mendes, Camila Cabello",
+        audio: "./assets/audio/usuk/Senorita.mp3",    
+        length: 191
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Shake_it_off.jpg",
+        avata: "./assets/image/usuk/avatar_Shake_it_off.jpg",
+        song: "Shake it off",
+        name: "Taylor Swift",
+        audio: "./assets/audio/usuk/Shake_it_off.mp3",    
+        length: 219
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Shape_of_you.png",
+        avata: "./assets/image/usuk/avatar_Shape_of_you.jpg",
+        song: "Shape of you",
+        name: "Ed Sheeran",
+        audio: "./assets/audio/usuk/Shape_of_you.mp3",    
+        length: 233
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Side_to_side.jpg",
+        avata: "./assets/image/usuk/avatar_Side_to_side.jpg",
+        song: "Side to side",
+        name: "Ariana Grande",
+        audio: "./assets/audio/usuk/Side_to_side.mp3",    
+        length: 224
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Stay.jpg",
+        avata: "./assets/image/usuk/avatar_Stay.png",
+        song: "Stay",
+        name: "The Kid LAROI, Justin Bieber",
+        audio: "./assets/audio/usuk/Stay.mp3",    
+        length: 141
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Sugar.jpg",
+        avata: "./assets/image/usuk/avatar_Sugar.jpg",
+        song: "Sugar",
+        name: "Maroon 5",
+        audio: "./assets/audio/usuk/Sugar.mp3",    
+        length: 235
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Thank_u_next.jpg",
+        avata: "./assets/image/usuk/avatar_Thank_u_next.png",
+        song: "Thank u next",
+        name: "Ariana Grande",
+        audio: "./assets/audio/usuk/Thank_u_next.mp3",    
+        length: 207
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_That_girls.jpg",
+        avata: "./assets/image/usuk/avatar_That_girl.jpg",
+        song: "That girl",
+        name: "Olly Murs",
+        audio: "./assets/audio/usuk/That_girl.mp3",    
+        length: 176
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_The_lazy_song.jpg",
+        avata: "./assets/image/usuk/avatar_The_lazy_song.jpg",
+        song: "The lazy song",
+        name: "Bruno Mars",
+        audio: "./assets/audio/usuk/The_lazy_song.mp3",    
+        length: 195
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Unstoppable.jpeg",
+        avata: "./assets/image/usuk/avatar_Unstoppable.jpg",
+        song: "Unstoppable",
+        name: "Sia",
+        audio: "./assets/audio/usuk/Unstoppable.mp3",    
+        length: 217
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_untilyou.jpg",
+        avata: "./assets/image/usuk/avatar_Until_you.jpg",
+        song: "Until you",
+        name: "Shayne Ward",
+        audio: "./assets/audio/usuk/Until_you.mp3",    
+        length: 248
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Uptown_funk.jpg",
+        avata: "./assets/image/usuk/avatar_Uptown_funk.jpg",
+        song: "Uptown funk",
+        name: "Mark Ronson, Bruno Mars",
+        audio: "./assets/audio/usuk/Uptown_funk.mp3",    
+        length: 270
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Versace_on_the_floor.jpg",
+        avata: "./assets/image/usuk/avatar_Versace_on_the_floor.jpg",
+        song: "Versace on the floor",
+        name: "Bruno Mars",
+        audio: "./assets/audio/usuk/Versace_on_the_floor.mp3",    
+        length: 261
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Way_back_home.jpg",
+        avata: "./assets/image/usuk/avatar_Way_back_home.jpg",
+        song: "Way back home",
+        name: "Shaun, Conor Maynard",
+        audio: "./assets/audio/usuk/Way_back_home.mp3",    
+        length: 192
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_We_dont_talk_anymore.jpg",
+        avata: "./assets/image/usuk/avatar_We_dont_talk_anymore.jpg",
+        song: "We don't talk anymore",
+        name: "Charlie Puth, Selena Gomez",
+        audio: "./assets/audio/usuk/We_dont_talk_anymore.mp3",    
+        length: 217
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_What_makes_you_beautiful.jpg",
+        avata: "./assets/image/usuk/avatar_What_makes_you_beautiful.jpg",
+        song: "What makes you beautiful",
+        name: "One Direction",
+        audio: "./assets/audio/usuk/What_makes_you_beautiful.mp3",    
+        length: 198
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Who_says.jpg",
+        avata: "./assets/image/usuk/avatar_whosay.jpg",
+        song: "Who says",
+        name: "Selena Gomez, The Scene",
+        audio: "./assets/audio/usuk/Who_says.flac",    
+        length: 195
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Why_not_me.jpg",
+        avata: "./assets/image/usuk/avatar_Why_not_me.jpg",
+        song: "Why not me",
+        name: "Enrique Iglesias",
+        audio: "./assets/audio/usuk/Why_not_me.mp3",    
+        length: 219
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Yummy.jpg",
+        avata: "./assets/image/usuk/avatar_Yummy.png",
+        song: "Yummy",
+        name: "Justin Bieber",
+        audio: "./assets/audio/usuk/Yummy.mp3",    
+        length: 210
+    },
+];
 var countChart=0;
 var indexChart=[];
 // Random with probability
@@ -1832,4 +2401,4 @@ for (var i=0;i<10;i++){
 }
 
 // Export song lists
-export {listChart,cpopList,lunarnewyearList};
+export {listChart,cpopList,lunarnewyearList,usukList};

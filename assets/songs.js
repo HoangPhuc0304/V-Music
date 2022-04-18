@@ -2,7 +2,7 @@ const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 const PlAYER_STORAGE_KEY="HPS_PLAYER";
 
-import {listChart,cpopList,lunarnewyearList} from './chart.js';
+import {listChart,cpopList,lunarnewyearList,usukList} from './chart.js';
 
 
 const navBtns=$$('.song-nav-item');
@@ -120,7 +120,7 @@ const YourLibrary = {
     isMuting: false,
     isRandom: false,
     isRepeat: false,
-    songs: [listChart,listChart,listChart,listChart,listChart,listChart,listChart,listChart,cpopList,listChart,listChart,lunarnewyearList,listChart,listChart,listChart,listChart,listChart,listChart,listChart],
+    songs: [listChart,listChart,listChart,listChart,listChart,listChart,listChart,listChart,cpopList,usukList,listChart,lunarnewyearList,listChart,listChart,listChart,listChart,listChart,listChart,listChart],
     heartArray: new Array(listChart.length).fill(0),
     heartList: [
         new Array(200).fill(0),
@@ -839,7 +839,7 @@ const YourLibrary = {
 // Initial music list
 const KindListen = {
     currentIndex: 0,
-    songs: [listChart,listChart,listChart,listChart,listChart,listChart,listChart,cpopList,listChart,listChart,lunarnewyearList,listChart,listChart,listChart,listChart,listChart,listChart,listChart],
+    songs: [listChart,listChart,listChart,listChart,listChart,listChart,listChart,cpopList,usukList,listChart,lunarnewyearList,listChart,listChart,listChart,listChart,listChart,listChart,listChart],
     render: function(){
         var html=[];
         var index=indexCurrent-1;

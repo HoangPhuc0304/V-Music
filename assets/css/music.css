@@ -308,7 +308,7 @@
     width: calc(100% * 2 / 3);
     margin-top: 60px;
     height: 80%;
-    float: left;
+    float: left;        
 }
 .song-songs-list {
     margin: 0 auto;
