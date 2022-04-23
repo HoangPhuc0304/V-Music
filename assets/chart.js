@@ -2185,6 +2185,15 @@ const usukList = [
     },
     {
         link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Send_it.jpg",
+        avata: "./assets/image/usuk/avatar_Send_it.jpg",
+        song: "Send it",
+        name: "Austin Mahone, Rich Homie Quan",
+        audio: "./assets/audio/usuk/Send_it.mp3",    
+        length: 181
+    },
+    {
+        link: "https://www.youtube.com/",
         img: "./assets/image/usuk/img_Senorita.jpg",
         avata: "./assets/image/usuk/avatar_Senorita.jpg",
         song: "Senorita",
@@ -2344,6 +2353,15 @@ const usukList = [
         name: "Enrique Iglesias",
         audio: "./assets/audio/usuk/Why_not_me.mp3",    
         length: 219
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_You_are_not_alone.jpg",
+        avata: "./assets/image/usuk/avatar_You_are_not_alone.jpg",
+        song: "You are not alone",
+        name: "Michael Jackson",
+        audio: "./assets/audio/usuk/You_are_not_alone.flac",    
+        length: 345
     },
     {
         link: "https://www.youtube.com/",
