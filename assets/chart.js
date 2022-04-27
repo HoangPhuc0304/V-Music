@@ -2109,7 +2109,7 @@ const usukList = [
         song: "Like I'm gonna lose you",
         name: "Meghan Trainor, John Legend",
         audio: "./assets/audio/usuk/Like_I_am_Gonna_Lose_You.mp3",    
-        length: 204
+        length: 225
     },
     {
         link: "https://www.youtube.com/",
