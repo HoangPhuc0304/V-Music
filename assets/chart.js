@@ -4,6 +4,24 @@ const chartItem=document.querySelectorAll('.chart-item-box');
 // your library + chart lists
 var listChart=[
     {
+        link: "https://www.youtube.com/watch?v=te9JalT1k5s",
+        img: "./assets/image/chart_tnoaa.jpg",
+        avata: "./assets/image/song_tnoaa.jpg",
+        song: "There's no one at all",
+        name: "Son Tung M-TP",
+        audio: "./assets/audio/chungtacuahientai.flac",
+        length: 301
+    },
+    {
+        link: "https://www.youtube.com/watch?v=W4P8gl4dnrg",
+        img: "./assets/image/chart_huthv.jpg",
+        avata: "./assets/image/song_huthv.jpg",
+        song: "Hẹn ước từ hư vô",
+        name: "My Tam",
+        audio: "./assets/audio/huthv.flac",
+        length: 247
+    },
+    {
         link: "https://www.youtube.com/watch?v=psZ1g9fMfeo",
         img: "./assets/image/chart_ctcht.jpg",
         avata: "./assets/image/song_ctcht.jpg",
@@ -20,6 +38,33 @@ var listChart=[
         name: "Mr. Siro",
         audio: "./assets/audio/ntyllsd.mp3",
         length: 303
+    },
+    {
+        link: "https://www.youtube.com/watch?v=Yw9Ra2UiVLw",
+        img: "./assets/image/chart_chimsau.jpg",
+        avata: "./assets/image/song_chimsau.jpg",
+        song: "Chìm sâu",
+        name: "MCK, Trung Quan",
+        audio: "./assets/audio/chimsau.flac",
+        length: 155
+    },
+    {
+        link: "https://www.youtube.com/watch?v=SGlBQR-ftVI",
+        img: "./assets/image/chart_dcmvs.jpg",
+        avata: "./assets/image/song_dcmvs.jpg",
+        song: "Dù cho mai về sau",
+        name: "buitruonglinh",
+        audio: "./assets/audio/dcmvs.flac",
+        length: 232
+    },
+    {
+        link: "https://www.youtube.com/watch?v=psZ1g9fMfeo",
+        img: "./assets/image/chart_dbmh.jpg",
+        avata: "./assets/image/song_dbmh.jpg",
+        song: "Don't break my heart",
+        name: "Binz, Touliver",
+        audio: "./assets/audio/dbmh.flac",
+        length: 237
     },
     {
         link: "https://www.youtube.com/watch?v=rIXhXaQ8tiM",
@@ -2059,6 +2104,15 @@ const usukList = [
     },
     {
         link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_Like_I_am_gonna_lose_you.jpg",
+        avata: "./assets/image/usuk/avatar_Like_I_am_gonna_lose_you.jpg",
+        song: "Like I'm gonna lose you",
+        name: "Meghan Trainor, John Legend",
+        audio: "./assets/audio/usuk/Like_I_am_Gonna_Lose_You.mp3",    
+        length: 204
+    },
+    {
+        link: "https://www.youtube.com/",
         img: "./assets/image/usuk/img_Like_my_father.jpg",
         avata: "./assets/image/usuk/avatar_Like_my_father.jpg",
         song: "Like my father",
@@ -2271,6 +2325,15 @@ const usukList = [
         song: "The lazy song",
         name: "Bruno Mars",
         audio: "./assets/audio/usuk/The_lazy_song.mp3",    
+        length: 195
+    },
+    {
+        link: "https://www.youtube.com/",
+        img: "./assets/image/usuk/img_There_is_no_one_at_all.jpg",
+        avata: "./assets/image/usuk/avatar_There_is_no_one_at_all.jpg",
+        song: "There's no one at all",
+        name: "Son Tung M-TP",
+        audio: "./assets/audio/usuk/There_is_no_one_at_all.flac",    
         length: 195
     },
     {
