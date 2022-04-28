@@ -9,8 +9,8 @@ var listChart=[
         avata: "./assets/image/song_tnoaa.jpg",
         song: "There's no one at all",
         name: "Son Tung M-TP",
-        audio: "./assets/audio/chungtacuahientai.flac",
-        length: 301
+        audio: "./assets/audio/There_is_no_one_at_all.flac",
+        length: 172
     },
     {
         link: "https://www.youtube.com/watch?v=W4P8gl4dnrg",
@@ -2334,7 +2334,7 @@ const usukList = [
         song: "There's no one at all",
         name: "Son Tung M-TP",
         audio: "./assets/audio/usuk/There_is_no_one_at_all.flac",    
-        length: 195
+        length: 172
     },
     {
         link: "https://www.youtube.com/",
