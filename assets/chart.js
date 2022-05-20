@@ -612,7 +612,7 @@ const cpopList=[
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_tla.jpg",
+        img: "./assets/image/cpop/img_tla.png",
         avata: "./assets/image/cpop/avata_tla.jpg",
         song: "Tôi là ai",
         name: "Thai Y Lam, Jony J",
