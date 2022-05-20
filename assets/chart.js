@@ -612,21 +612,21 @@ const cpopList=[
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_ll.jpg",
-        avata: "./assets/image/cpop/avata_ll.jpg",
-        song: "Lạnh lẽo",
-        name: "Truong Bich Than, Duong Tong Vy",
-        audio: "./assets/audio/cpop/lanhleo.flac",    
-        length: 333
+        img: "./assets/image/cpop/img_tla.jpg",
+        avata: "./assets/image/cpop/avata_tla.jpg",
+        song: "Tôi là ai",
+        name: "Thai Y Lam, Jony J",
+        audio: "./assets/audio/cpop/toilaai.mp3",    
+        length: 239
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
-        img: "./assets/image/cpop/img_bn.jpg",
-        avata: "./assets/image/cpop/avata_bn.jpg",
-        song: "Bất nhiễm",
-        name: "Mao Bat Dich",
-        audio: "./assets/audio/cpop/batnhiem.mp3",    
-        length: 325
+        img: "./assets/image/cpop/img_mdl.jpg",
+        avata: "./assets/image/cpop/avata_mdl.jpg",
+        song: "Mặt đối lập",
+        name: "Thai Y Lam",
+        audio: "./assets/audio/cpop/matdoilap.mp3",    
+        length: 230
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
@@ -735,6 +735,24 @@ const cpopList=[
         name: "Vu Nguyet Thien",
         audio: "./assets/audio/cpop/anhkhongmuondeemmotminh.mp3",    
         length: 265
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_ll.jpg",
+        avata: "./assets/image/cpop/avata_ll.jpg",
+        song: "Lạnh lẽo",
+        name: "Truong Bich Than, Duong Tong Vy",
+        audio: "./assets/audio/cpop/lanhleo.flac",    
+        length: 333
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_bn.jpg",
+        avata: "./assets/image/cpop/avata_bn.jpg",
+        song: "Bất nhiễm",
+        name: "Mao Bat Dich",
+        audio: "./assets/audio/cpop/batnhiem.mp3",    
+        length: 325
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
