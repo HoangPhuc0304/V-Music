@@ -621,6 +621,24 @@ const cpopList=[
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_ngua.jpg",
+        avata: "./assets/image/cpop/avata_ngua.jpg",
+        song: "Ngứa",
+        name: "Hoang Linh",
+        audio: "./assets/audio/cpop/ngua.mp3",    
+        length: 229
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_daybien.jpg",
+        avata: "./assets/image/cpop/avata_daybien.jpg",
+        song: "Đáy biển",
+        name: "Nhat Chi Luu Lien",
+        audio: "./assets/audio/cpop/daybien.mp3",    
+        length: 256
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
         img: "./assets/image/cpop/img_mdl.jpg",
         avata: "./assets/image/cpop/avata_mdl.jpg",
         song: "Mặt đối lập",
