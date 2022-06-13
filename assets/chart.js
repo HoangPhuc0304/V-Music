@@ -639,6 +639,15 @@ const cpopList=[
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_ktcca.jpg",
+        avata: "./assets/image/cpop/avata_ktcca.jpg",
+        song: "Khi tôi cưới cô ấy",
+        name: "Mac Khieu Ty Ty",
+        audio: "./assets/audio/cpop/ngua.mp3",    
+        length: 231
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
         img: "./assets/image/cpop/img_mdl.jpg",
         avata: "./assets/image/cpop/avata_mdl.jpg",
         song: "Mặt đối lập",
