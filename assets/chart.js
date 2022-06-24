@@ -2481,6 +2481,116 @@ const usukList = [
         length: 210
     },
 ];
+const jpopList = [
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_best_friend.jpg",
+        avata: "./assets/image/jpop/avatar_best_friend.jpg",
+        song: "Best friend",
+        name: "Kana Nishino",
+        audio: "./assets/audio/jpop/best_friend.mp3",    
+        length: 321
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_hotaru.jpg",
+        avata: "./assets/image/jpop/avatar_hotaru.jpg",
+        song: "Hotaru",
+        name: "Fujita Maiko",
+        audio: "./assets/audio/jpop/hotaru.mp3",    
+        length: 294
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_lemon.jpg",
+        avata: "./assets/image/jpop/avatar_lemon.png",
+        song: "Lemon",
+        name: "Kenshi Yonezu",
+        audio: "./assets/audio/jpop/lemon.mp3",    
+        length: 255
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_liabp.jpg",
+        avata: "./assets/image/jpop/avatar_liabp.jpg",
+        song: "Love is a beautiful pain",
+        name: "endless tears",
+        audio: "./assets/audio/jpop/liabp.mp3",    
+        length: 264
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_niji.png",
+        avata: "./assets/image/jpop/avatar_niji.jpg",
+        song: "Niji",
+        name: "Suda Masaki",
+        audio: "./assets/audio/jpop/niji.mp3",    
+        length: 258
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_sakura.jpg",
+        avata: "./assets/image/jpop/avatar_sakura.jpg",
+        song: "Sakura",
+        name: "Ikimono gakari",
+        audio: "./assets/audio/jpop/sakura.mp3",    
+        length: 353
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_sandy.png",
+        avata: "./assets/image/jpop/avatar_sandy.jpg",
+        song: "Sakura anata ni deaete yokatta",
+        name: "RSP",
+        audio: "./assets/audio/jpop/sandy.mp3",    
+        length: 301
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_tadaima.jpg",
+        avata: "./assets/image/jpop/avatar_tadaima.jpg",
+        song: "Tadaima",
+        name: "Aoi Teshima",
+        audio: "./assets/audio/jpop/tadaima.mp3",    
+        length: 332
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_yth.jpg",
+        avata: "./assets/image/jpop/avatar_yth.jpg",
+        song: "Yume to hazakura",
+        name: "Wotamin",
+        audio: "./assets/audio/jpop/yth.mp3",    
+        length: 253
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_take_me_hand.jpeg",
+        avata: "./assets/image/jpop/avatar_take_me_hand.jpg",
+        song: "Take me hand",
+        name: "Cecile Corbel, DAISHI DANCE",
+        audio: "./assets/audio/jpop/take_me_hand.mp3",    
+        length: 260
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_fnk.jpg",
+        avata: "./assets/image/jpop/avatar_fnk.jpg",
+        song: "Futari no kimochi",
+        name: "No singer",
+        audio: "./assets/audio/jpop/fnk.mp3",    
+        length: 159
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_snn.jpg",
+        avata: "./assets/image/jpop/avatar_snn.jpg",
+        song: "Sayonara no natsu",
+        name: "Aoi Teshima",
+        audio: "./assets/audio/jpop/snn.mp3",    
+        length: 323
+    },
+]
 var countChart=0;
 var indexChart=[];
 // Random with probability
@@ -2527,4 +2637,4 @@ for (var i=0;i<10;i++){
 }
 
 // Export song lists
-export {listChart,cpopList,lunarnewyearList,usukList};
+export {listChart,cpopList,lunarnewyearList,usukList,jpopList};
