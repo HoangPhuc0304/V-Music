@@ -1,7 +1,5 @@
 const chartItem=document.querySelectorAll('.chart-item-box');
 
-// songs Lists:
-// your library + chart lists
 var listChart=[
     {
         link: "https://www.youtube.com/watch?v=te9JalT1k5s",
@@ -621,6 +619,60 @@ const cpopList=[
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_trich_tien.jpg",
+        avata: "./assets/image/cpop/avata_trich_tien.jpg",
+        song: "Trích tiên",
+        name: "Y Cach Tai Thinh, Diep Ly",
+        audio: "./assets/audio/cpop/trichtien.mp3",    
+        length: 178
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_nhat_diep.jpg",
+        avata: "./assets/image/cpop/avata_nhat_diep.jpg",
+        song: "Nhất diệp",
+        name: "Diep Ly",
+        audio: "./assets/audio/cpop/nhatdiep.mp3",    
+        length: 241
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_tuong_nho.jpg",
+        avata: "./assets/image/cpop/avata_tuong_nho.jpg",
+        song: "Tưởng nhớ",
+        name: "Uc Kha Duy",
+        audio: "./assets/audio/cpop/tuongnho.mp3",    
+        length: 307
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_tu_my_nhan.jpg",
+        avata: "./assets/image/cpop/avata_tmn.jpg",
+        song: "Tư mỹ nhân",
+        name: "Truong Luong Dinh",
+        audio: "./assets/audio/cpop/tumynhan.mp3",    
+        length: 306
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_qklh.jpg",
+        avata: "./assets/image/cpop/avata_qklh.jpg",
+        song: "Quy khứ lai hề",
+        name: "Diep Huyen Thanh",
+        audio: "./assets/audio/cpop/quykhulaihe.mp3",    
+        length: 238
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_bdk.png",
+        avata: "./assets/image/cpop/avata_bdk.png",
+        song: "Bồ đề kệ",
+        name: "Luu Tich Quan",
+        audio: "./assets/audio/cpop/bodeke.mp3",    
+        length: 244
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
         img: "./assets/image/cpop/img_ngua.jpg",
         avata: "./assets/image/cpop/avata_ngua.jpg",
         song: "Ngứa",
@@ -643,7 +695,7 @@ const cpopList=[
         avata: "./assets/image/cpop/avata_ktcca.jpg",
         song: "Khi tôi cưới cô ấy",
         name: "Mac Khieu Ty Ty",
-        audio: "./assets/audio/cpop/ngua.mp3",    
+        audio: "./assets/audio/cpop/khitoicuoicoay.mp3",    
         length: 231
     },
     {
@@ -1338,6 +1390,33 @@ const cpopList=[
         name: "Tiet Khai Ky, Hinson Chu",
         audio: "./assets/audio/cpop/tinhyeuduynhat.mp3",    
         length: 207
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_vxbn.png",
+        avata: "./assets/image/cpop/avata_vxbn.jpg",
+        song: "Vong xuyên bỉ ngạn",
+        name: "Linh Nhat Cuu Linh Nhi",
+        audio: "./assets/audio/cpop/vongxuyenbingan.mp3",    
+        length: 177
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_tnlrr.jpg",
+        avata: "./assets/image/cpop/avata_tnlrr.jpg",
+        song: "Tát nhật lãng rực rỡ",
+        name: "Yeu Bat Yeu Mai Thai",
+        audio: "./assets/audio/cpop/tatnhatlangrucro.mp3",    
+        length: 223
+    },
+    {
+        link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
+        img: "./assets/image/cpop/img_lkqtg.jpg",
+        avata: "./assets/image/cpop/avata_lkqtg.jpg",
+        song: "Lữ khách qua thời gian",
+        name: "Danh Quyet",
+        audio: "./assets/audio/cpop/lukhachquathoigian.mp3",    
+        length: 178
     },
     {
         link: "https://www.youtube.com/watch?v=gOtfJ151ue4",
@@ -2484,6 +2563,114 @@ const usukList = [
 const jpopList = [
     {
         link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_niji.png",
+        avata: "./assets/image/jpop/avatar_niji.jpg",
+        song: "Niji",
+        name: "Suda Masaki",
+        audio: "./assets/audio/jpop/niji.mp3",    
+        length: 258
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_lalala.jpg",
+        avata: "./assets/image/jpop/avatar_lalala.jpg",
+        song: "La la la",
+        name: "Suki",
+        audio: "./assets/audio/jpop/lalala.mp3",    
+        length: 190
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_hazzy_moon.jpg",
+        avata: "./assets/image/jpop/avatar_hazzy_mon.jpg",
+        song: "Hazy moon",
+        name: "Hatsune Miku",
+        audio: "./assets/audio/jpop/hazy_moon.mp3",    
+        length: 255
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_arigatou.jpg",
+        avata: "./assets/image/jpop/avatar_arigatou.jpg",
+        song: "Arigatou",
+        name: "Kokia",
+        audio: "./assets/audio/jpop/arigatou.mp3",    
+        length: 251
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_ywkd.jpg",
+        avata: "./assets/image/jpop/avatar_ywkd.jpg",
+        song: "Yume wo kanaete doraemon",
+        name: "MAO",
+        audio: "./assets/audio/jpop/ywk_doraemon.mp3",    
+        length: 247
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_dnu.jpg",
+        avata: "./assets/image/jpop/avatar_dnu.png",
+        song: "Doraemon no uta",
+        name: "Satoko Yamano",
+        audio: "./assets/audio/jpop/doraemon_no_uta.mp3",    
+        length: 180
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_smk.jpg",
+        avata: "./assets/image/jpop/avatar_smk.jpg",
+        song: "Sakurairo mau koro",
+        name: "Mika Nakashima",
+        audio: "./assets/audio/jpop/sakurairo_mau_koro.mp3",    
+        length: 295
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_planet.jpg",
+        avata: "./assets/image/jpop/avatar_planet.jpg",
+        song: "Planet",
+        name: "Lambsey",
+        audio: "./assets/audio/jpop/planet.mp3",    
+        length: 243
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_uh.png",
+        avata: "./assets/image/jpop/avatar_uh.jpg",
+        song: "Uchiage hanabi",
+        name: "DAOKO, Yonezu Kenshi",
+        audio: "./assets/audio/jpop/uchiage_hanabi.mp3",    
+        length: 289
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_tabun.jpg",
+        avata: "./assets/image/jpop/avatar_tabun.jpg",
+        song: "Tabun",
+        name: "YOASOBI",
+        audio: "./assets/audio/jpop/tabun.mp3",    
+        length: 258
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_aoku.jpg",
+        avata: "./assets/image/jpop/avatar_aoku.jpg",
+        song: "Ai o komete umi",
+        name: "Aoi Teshima",
+        audio: "./assets/audio/jpop/aoku.mp3",    
+        length: 250
+    },
+    {
+        link: "https://www.youtube.com",
+        img: "./assets/image/jpop/img_hny.jpeg",
+        avata: "./assets/image/jpop/avatar_hny.jpg",
+        song: "Himawari no Yakusoku",
+        name: "Motohiro hata",
+        audio: "./assets/audio/jpop/hny.mp3",    
+        length: 312
+    },
+    {
+        link: "https://www.youtube.com",
         img: "./assets/image/jpop/img_best_friend.jpg",
         avata: "./assets/image/jpop/avatar_best_friend.jpg",
         song: "Best friend",
@@ -2517,15 +2704,6 @@ const jpopList = [
         name: "endless tears",
         audio: "./assets/audio/jpop/liabp.mp3",    
         length: 264
-    },
-    {
-        link: "https://www.youtube.com",
-        img: "./assets/image/jpop/img_niji.png",
-        avata: "./assets/image/jpop/avatar_niji.jpg",
-        song: "Niji",
-        name: "Suda Masaki",
-        audio: "./assets/audio/jpop/niji.mp3",    
-        length: 258
     },
     {
         link: "https://www.youtube.com",
